@@ -23,10 +23,14 @@ NaWServer и WebSocket/CBOR. Собственные исходники демк�
 
 ```powershell
 pio run -d examples/research -e c6
+pio run -d examples/research -e c6_idf61
 pio run -d examples/research -e s3_lcd7
 npm test
 npm run preview
 ```
+
+Профили `c6` и `s3_lcd7` используют ESP-IDF 5.5.6, `c6_idf61` использует ESP-IDF 6.1.0.
+[Подготовка SDK и инструментов](../../docs/readme_development_environment_ru.md).
 
 Preview доступен на `http://127.0.0.1:5279/` и показывает **синтетические данные**.
 Для тестов нужны fixtures от native CMake/CTest сборки в `local/native-build`.

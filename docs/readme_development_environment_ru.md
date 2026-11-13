@@ -53,7 +53,7 @@ Python-окружение и скомпилированные `.pio`-объек�
 | Python для инструментов | 3.11.7; отдельные venv создаёт PlatformIO |
 | Espressif32 | 8.0.0 |
 | ESP-IDF по умолчанию, все три проекта | 5.5.6 |
-| Дополнительные IDF 6-профили NaWServer | 6.1 |
+| Дополнительные профили ESP-IDF 6.1 | NaWServer и NaBTools Research (`c6_idf61`), 6.1.0 |
 | RISC-V GCC для IDF 5.5.6 | 14.2.0+20260121 |
 | RISC-V GCC для IDF 6.1 | 15.2.0+20251204 |
 | Xtensa GCC, текущие профили NaWServer | 14.2.0+20251107 |

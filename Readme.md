@@ -6,6 +6,8 @@ An experimental C++20 Bluetooth toolkit for ESP32: radio mechanisms, borrowed
 and owned packet views, protocol modules, device instances and research tools.
 Extracted from the Bluetooth library in ESP32-BLETPMS-and-more.
 
+![SeMaps overview of BtEngine, its backend, modules and application interfaces](docs/images/semaps-architecture.png)
+
 ## What it does
 
 - `BtEngine` owns an injected backend, modules and bounded device instances.
@@ -129,6 +131,10 @@ Application/engine calls and these getters are serialized in the owner context.
 `library.json` supplies portable sources for PlatformIO consumers providing their
 own backend. Hardware ESP-IDF users should use the component, which includes
 SDK adapters and Kconfig. No static recognizer registration or nlohmann-json remains.
+
+## Research data flow
+
+![SeMaps data flow from Bluetooth advertisements and GATT to the web and LVGL views](docs/images/semaps-data-flow.png)
 
 ## Documentation and examples
 

@@ -14,8 +14,8 @@ semaps check NaBTools.semaps
 
 | Вид | Содержание |
 |---|---|
-| `v_architecture` | BtEngine, ESP-IDF backend, общий GATT, модули, экземпляры, Actions и необязательный SIG |
-| `v_data` | Наблюдения и CBOR → LiveViews → WS/вебка; общий журнал → LVGL; пользовательские команды → очередь |
+| [`v_architecture`](images/semaps-architecture.png) | BtEngine, ESP-IDF backend, общий GATT, модули, экземпляры, Actions и необязательный SIG |
+| [`v_data`](images/semaps-data-flow.png) | Наблюдения и CBOR → LiveViews → WS/вебка; общий журнал → LVGL; пользовательские команды → очередь |
 | `v_lifecycle` | Распознавание → явное добавление → DeviceId с поколением → работа → удаление и очистка |
 
 BtEngine владеет механизмами Bluetooth и экземплярами. Модуль определяет тип

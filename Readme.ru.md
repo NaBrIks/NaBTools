@@ -9,6 +9,8 @@
 Переименование проекта и современного API: [миграция в NaBTools](docs/readme_nabtools_migration_ru.md).
 Репозиторий: [NaBrIks/NaBTools](https://github.com/NaBrIks/NaBTools).
 
+![Карта SeMaps: BtEngine, backend, модули и интерфейсы приложения](docs/images/semaps-architecture.png)
+
 Единая экспериментальная реализация на C++20:
 BtEngine, модули исследования и TomTom TPMS, владение экземплярами устройств,
 прямые STRUCT/CBOR Actions, Samsung SmartTag, стандартный Heart Rate,
@@ -97,6 +99,8 @@ crypto-тест не включён на других ОС. CTest создаёт
 - [Известные ограничения исходной реализации](docs/readme_known_issues_ru.md)
 - [Проверки выделения](docs/readme_validation_ru.md)
 - [Перенос возможностей и удаление старого кода](docs/readme_retired_code_ru.md)
+
+![Поток данных SeMaps: от рекламы и GATT до веб-интерфейса и LVGL](docs/images/semaps-data-flow.png)
 
 Архитектурная карта: [SeMaps и MCP](docs/readme_semaps_ru.md),
 файл проекта — `NaBTools.semaps`.
