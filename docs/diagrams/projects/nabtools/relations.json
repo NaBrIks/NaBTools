@@ -1,0 +1,166 @@
+{
+  "contractVersion": 5,
+  "relations": [
+    {
+      "id": "r_app_engine_depends",
+      "from": "e_app",
+      "to": "e_engine",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_engine_backend_depends",
+      "from": "e_engine",
+      "to": "e_backend",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_backend_gatt_depends",
+      "from": "e_backend",
+      "to": "e_gatt",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_engine_modules_depends",
+      "from": "e_engine",
+      "to": "e_modules",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_engine_device_depends",
+      "from": "e_engine",
+      "to": "e_device",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_device_actions_data_flow",
+      "from": "e_device",
+      "to": "e_actions",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_actions_journal_data_flow",
+      "from": "e_actions",
+      "to": "e_journal",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_research_sig_depends",
+      "from": "e_research",
+      "to": "e_sig",
+      "type": "depends",
+      "origin": "authored"
+    },
+    {
+      "id": "r_engine_research_data_flow",
+      "from": "e_engine",
+      "to": "e_research",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_journal_views_data_flow",
+      "from": "e_journal",
+      "to": "e_views",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_research_views_data_flow",
+      "from": "e_research",
+      "to": "e_views",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_views_transport_data_flow",
+      "from": "e_views",
+      "to": "e_transport",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_transport_web_data_flow",
+      "from": "e_transport",
+      "to": "e_web",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_research_lcd_data_flow",
+      "from": "e_research",
+      "to": "e_lcd",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_journal_lcd_data_flow",
+      "from": "e_journal",
+      "to": "e_lcd",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_web_queue_data_flow",
+      "from": "e_web",
+      "to": "e_queue",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_lcd_queue_data_flow",
+      "from": "e_lcd",
+      "to": "e_queue",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_queue_engine_call",
+      "from": "e_queue",
+      "to": "e_engine",
+      "type": "call",
+      "origin": "authored"
+    },
+    {
+      "id": "r_advert_recognize_data_flow",
+      "from": "e_advert",
+      "to": "e_recognize",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_recognize_admit_data_flow",
+      "from": "e_recognize",
+      "to": "e_admit",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_admit_identity_data_flow",
+      "from": "e_admit",
+      "to": "e_identity",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_identity_active_data_flow",
+      "from": "e_identity",
+      "to": "e_active",
+      "type": "data-flow",
+      "origin": "authored"
+    },
+    {
+      "id": "r_active_remove_data_flow",
+      "from": "e_active",
+      "to": "e_remove",
+      "type": "data-flow",
+      "origin": "authored"
+    }
+  ]
+}

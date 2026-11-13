@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Oleg Kozhevnikov
+#pragma once
+#include <cstdint>
+inline int64_t esp_timer_get_time()
+{
+	return 0;
+}

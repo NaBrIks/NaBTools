@@ -1,0 +1,8 @@
+version: 1
+name: NaBTools
+workspace: docs/diagrams
+source_root: .
+port: 54382
+mcp:
+  tools: narrow
+  description: standard

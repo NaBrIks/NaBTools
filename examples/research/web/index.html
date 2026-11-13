@@ -1,0 +1,54 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (c) 2026 Oleg Kozhevnikov -->
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NaBTools · Bluetooth research</title>
+<link rel="stylesheet" href="/icons/tabler-icons.css"><link rel="stylesheet" href="/themes.css">
+<link rel="stylesheet" href="/shell.css"><link rel="stylesheet" href="/research.css"></head>
+<body><div id="shell" class="lu-shell" data-theme="cream" data-density="nano">
+<header class="shell-topbar">
+ <button id="menu" class="icon-button" aria-label="Меню" data-tooltip="Меню" aria-expanded="true" aria-controls="sidebar"><svg class="shell-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l16 0M4 12l16 0M4 18l16 0"/></svg></button>
+ <strong class="shell-brand">NaBTools</strong><span class="shell-version">Bluetooth research</span>
+ <div id="connection" class="shell-stats">Подключение…</div>
+ <details class="appearance"><summary id="appearance-label"><i class="ti ti-palette" aria-hidden="true"></i> Кремовая · NANO</summary><div id="appearance-menu" class="appearance-menu"></div></details>
+ <button id="language" data-tooltip="EN / RU">RU</button>
+</header>
+<div class="shell-body"><aside id="sidebar" class="shell-sidebar"><nav aria-label="Разделы">
+ <a href="#overview" id="overview-link" class="active"><svg class="shell-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8l10 8l-5 4l0 -16l5 4l-10 8"/></svg><span data-t="overview">Обзор Bluetooth</span></a>
+ <a href="#devices" id="devices-link"><i class="ti ti-plug" aria-hidden="true"></i><span data-t="devices">Добавленные устройства</span></a>
+ <div class="settings-menu"><a href="#settings" id="settings-link"><i class="ti ti-settings" aria-hidden="true"></i><span data-t="settings">Настройки</span></a></div>
+</nav></aside>
+<main class="shell-content">
+<div id="message" role="status"></div>
+<div id="overview" class="workspace-page">
+ <div class="page-header"><div class="toolbar"><strong id="scan-state">—</strong><span id="totals"></span></div>
+  <div class="toolbar"><input id="filter" placeholder="Имя / адрес / компания" aria-label="Фильтр">
+  <label for="scan-mode" data-t="scan_mode">Сканирование</label><select id="scan-mode" aria-label="Scan mode"><option value="passive" data-t="passive">Пассивное</option><option value="active" data-t="active">Активное</option></select>
+  <button id="start" data-t="start">Начать</button><button id="pause" data-t="pause">Пауза</button>
+  <button id="refresh" data-t="refresh">Обновить</button><button id="help" aria-label="Справка">ⓘ</button></div></div>
+ <div class="workspace-columns single-pane">
+  <section class="workspace-pane panel" tabindex="0" aria-label="Bluetooth observations"><h2 class="workspace-pane-header panel-header" data-t="observations">Наблюдения в эфире</h2>
+   <table id="observations"><thead><tr><th><button data-sort="company"><span data-t="company">Компания</span></button></th><th><button data-sort="device"><span data-t="device">Устройство</span></button></th><th><button data-sort="kind"><span data-t="device_kind">Тип</span></button></th><th><button data-sort="capabilities"><span data-t="capabilities">Возможности</span></button></th><th><button data-sort="basis"><span data-t="basis">Основание</span></button></th><th><button data-sort="address">MAC</button></th><th class="number"><button data-sort="rssi">RSSI</button></th><th class="number"><button data-sort="packets"><span data-t="packets">Пакеты</span></button></th><th class="number"><button data-sort="age"><span data-t="age">Возраст, с</span></button></th><th><button data-sort="handler"><span data-t="handler">Обработчик</span></button></th><th><button data-sort="data"><span data-t="data">Данные</span></button></th></tr></thead><tbody></tbody></table>
+  </section>
+ </div>
+</div>
+<div id="devices-page" class="workspace-page" hidden>
+ <div class="workspace-columns device-columns">
+  <section class="workspace-pane panel" tabindex="0" aria-label="Added devices"><h2 class="workspace-pane-header panel-header" data-t="devices">Добавленные устройства</h2>
+   <table id="devices"><thead><tr><th data-t="handler">Обработчик</th><th>MAC</th><th class="number" data-t="packets">Пакеты</th><th>ID</th><th></th></tr></thead><tbody></tbody></table>
+   <div class="panel-body muted" id="devices-empty" data-t="no_devices">Добавьте устройство из таблицы эфира.</div>
+  </section>
+  <section class="workspace-pane panel device-details" tabindex="0" aria-label="Selected device"><div class="workspace-pane-header panel-header"><h2 id="selected-device-title">Выберите устройство</h2></div>
+   <div id="selected-device-info" class="panel-body muted"></div>
+   <div class="panel-body" id="device-interactions" hidden></div>
+   <div class="panel-header message-heading"><h3 data-t="messages">Сообщения CBOR</h3><span id="message-count" class="muted"></span></div>
+   <div class="message-toolbar toolbar"><select id="message-select" aria-label="Сообщение CBOR"></select><label><input id="follow" type="checkbox" checked><span data-t="follow">Новые</span></label><button id="raw-message">CBOR</button></div>
+   <table id="values"><thead><tr><th data-t="field">Поле</th><th data-t="value">Значение</th><th data-t="type">Тип</th></tr></thead><tbody></tbody></table>
+   <div class="panel-body muted" id="values-empty" data-t="no_messages">Сообщений пока нет.</div>
+  </section>
+ </div>
+</div>
+<section id="settings" hidden><h2 data-t="settings">Настройки</h2><dl id="settings-values"></dl></section>
+</main></div>
+<dialog id="details"><div class="panel-header"><strong id="details-title"></strong><button id="close" data-t="close">Закрыть</button></div><pre id="details-content"></pre></dialog>
+</div><script type="module" src="/research.js"></script></body></html>

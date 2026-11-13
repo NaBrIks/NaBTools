@@ -1,0 +1,85 @@
+{
+  "id": "v_data",
+  "project": "nabtools",
+  "axis": "axis_flow",
+  "placements": [
+    {
+      "entity": "e_engine",
+      "parent": null,
+      "x": 40,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_research",
+      "parent": null,
+      "x": 460,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_views",
+      "parent": null,
+      "x": 880,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_transport",
+      "parent": null,
+      "x": 1300,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_web",
+      "parent": null,
+      "x": 1300,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_actions",
+      "parent": null,
+      "x": 880,
+      "y": 440,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_journal",
+      "parent": null,
+      "x": 880,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_lcd",
+      "parent": null,
+      "x": 460,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_queue",
+      "parent": null,
+      "x": 1300,
+      "y": 640,
+      "width": 360,
+      "height": 70
+    }
+  ],
+  "routing": "orthogonal",
+  "relations": {
+    "except": [
+      "r_queue_engine_call"
+    ]
+  }
+}

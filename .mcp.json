@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "semaps": {
+      "type": "stdio",
+      "command": "semaps",
+      "args": ["mcp"]
+    }
+  }
+}

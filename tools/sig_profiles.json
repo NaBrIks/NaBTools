@@ -1,0 +1,137 @@
+{
+  "note": "Curated development selections, not a popularity ranking. Samsung/Garmin are owner-provided nearby test devices. IDs come from the pinned SIG snapshot.",
+  "common_company_ids": [
+    6,
+    76,
+    89,
+    107,
+    117,
+    135,
+    159,
+    196,
+    209,
+    224,
+    256,
+    343,
+    398,
+    734,
+    741,
+    911
+  ],
+  "extended_name_terms": [
+    "Garmin",
+    "Samsung",
+    "Apple",
+    "Google",
+    "Microsoft",
+    "Polar",
+    "Suunto",
+    "Fitbit",
+    "Sony",
+    "Xiaomi",
+    "Huawei",
+    "Bose",
+    "Jabra",
+    "Sennheiser",
+    "Logitech",
+    "Philips",
+    "Texas Instruments",
+    "Intel",
+    "Qualcomm",
+    "Broadcom",
+    "Realtek",
+    "Nordic Semiconductor",
+    "Espressif",
+    "Bosch",
+    "Siemens",
+    "Withings",
+    "Wahoo",
+    "Toshiba",
+    "Nokia",
+    "Lenovo",
+    "Motorola",
+    "OnePlus",
+    "Nothing",
+    "Anker",
+    "ASUSTek",
+    "Acer",
+    "Dell",
+    "Hewlett",
+    "Razer",
+    "TomTom"
+  ],
+  "common_service_ids": [
+    6144,
+    6145,
+    6154,
+    6157,
+    6159,
+    6166,
+    6168,
+    6182
+  ],
+  "common_characteristic_ids": [
+    10752,
+    10753,
+    10757,
+    10777,
+    10788,
+    10789,
+    10790,
+    10793,
+    10807,
+    10808,
+    10809
+  ],
+  "common_descriptor_ids": [
+    10496,
+    10497,
+    10498,
+    10499,
+    10500,
+    10501,
+    10502,
+    10503,
+    10504
+  ],
+  "common_declaration_ids": [
+    10240,
+    10241,
+    10242,
+    10243
+  ],
+  "common_unit_ids": [
+    9984,
+    9985,
+    9986,
+    9987,
+    10020
+  ],
+  "common_service_class_ids": [
+    4353,
+    4363,
+    4366
+  ],
+  "common_protocol_ids": [
+    1,
+    3,
+    256
+  ],
+  "common_browse_group_ids": [
+    4098
+  ],
+  "common_object_type_ids": [
+    10954,
+    10955
+  ],
+  "common_member_ids": [],
+  "common_sdo_ids": [],
+  "common_mesh_profile_ids": [],
+  "common_appearance_ids": [
+    0,
+    64,
+    128,
+    192,
+    832
+  ]
+}

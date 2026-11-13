@@ -1,0 +1,30 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Oleg Kozhevnikov
+#pragma once
+#ifndef NABTOOLS_GATT_CLIENT
+#define NABTOOLS_GATT_CLIENT 0
+#endif
+#ifndef NABTOOLS_HRM_STRUCT
+#define NABTOOLS_HRM_STRUCT 1
+#endif
+#ifndef NABTOOLS_HRM_CBOR
+#define NABTOOLS_HRM_CBOR 1
+#endif
+#ifndef NABTOOLS_DEVICE_DESCRIPTIONS
+#define NABTOOLS_DEVICE_DESCRIPTIONS 0
+#endif
+#ifndef NABTOOLS_SMARTTAG_STRUCT
+#define NABTOOLS_SMARTTAG_STRUCT 1
+#endif
+#ifndef NABTOOLS_SMARTTAG_CBOR
+#define NABTOOLS_SMARTTAG_CBOR 1
+#endif
+#ifndef NABTOOLS_TPMS_STRUCT
+#define NABTOOLS_TPMS_STRUCT 1
+#endif
+#ifndef NABTOOLS_TPMS_CBOR
+#define NABTOOLS_TPMS_CBOR 1
+#endif
+#ifndef NABTOOLS_SIG_PROFILE
+#define NABTOOLS_SIG_PROFILE 0
+#endif

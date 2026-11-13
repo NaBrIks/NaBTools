@@ -1,0 +1,11 @@
+{
+  "id": "nabtools",
+  "title": "NaBTools — архитектура Bluetooth",
+  "subtitle": "Движок, модули, экземпляры и исследовательское приложение",
+  "contractVersion": 5,
+  "defaultAxis": "axis_layer",
+  "languages": [
+    "ru"
+  ],
+  "defaultView": "v_architecture"
+}

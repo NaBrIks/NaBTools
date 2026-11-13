@@ -1,0 +1,14 @@
+# Keep the canonical formatter's LF output stable on Windows checkouts.
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.cxx text eol=lf
+*.h text eol=lf
+*.hh text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+# Preserve upstream and generated data as supplied.
+bluetooth-SIG/** !text !eol
+**/vendor/** !text !eol
+**/third_party/** !text !eol
+**/*.generated.* !text !eol

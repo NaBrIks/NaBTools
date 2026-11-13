@@ -1,0 +1,55 @@
+{
+  "id": "v_lifecycle",
+  "project": "nabtools",
+  "axis": "axis_flow",
+  "placements": [
+    {
+      "entity": "e_advert",
+      "parent": null,
+      "x": 40,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_recognize",
+      "parent": null,
+      "x": 460,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_admit",
+      "parent": null,
+      "x": 880,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_identity",
+      "parent": null,
+      "x": 880,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_active",
+      "parent": null,
+      "x": 460,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_remove",
+      "parent": null,
+      "x": 40,
+      "y": 240,
+      "width": 360,
+      "height": 70
+    }
+  ]
+}

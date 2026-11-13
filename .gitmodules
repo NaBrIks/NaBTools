@@ -1,0 +1,4 @@
+[submodule "bluetooth-SIG"]
+	path = bluetooth-SIG
+	url = https://bitbucket.org/bluetooth-SIG/public.git
+	update = none

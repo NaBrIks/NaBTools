@@ -1,0 +1,40 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Oleg Kozhevnikov
+menu "NaBTools runtime"
+config NABTOOLS_GATT_CLIENT
+    bool "Optional generic GATT client transport"
+    default n
+config NABTOOLS_HRM_STRUCT
+    bool "Heart Rate typed output"
+    default y
+config NABTOOLS_HRM_CBOR
+    bool "Heart Rate direct CBOR output"
+    default y
+config NABTOOLS_DEVICE_DESCRIPTIONS
+    bool "Optional device command/event descriptions"
+    default n
+config NABTOOLS_SMARTTAG_STRUCT
+    bool "SmartTag typed output"
+    default y
+config NABTOOLS_SMARTTAG_CBOR
+    bool "SmartTag direct CBOR output"
+    default y
+config NABTOOLS_TPMS_STRUCT
+    bool "TPMS typed structure Action"
+    default y
+config NABTOOLS_TPMS_CBOR
+    bool "TPMS direct CBOR Action"
+    default y
+choice NABTOOLS_SIG_SELECTION
+    prompt "Optional SIG name catalog"
+    default NABTOOLS_SIG_OFF
+config NABTOOLS_SIG_OFF
+    bool "OFF"
+config NABTOOLS_SIG_COMMON
+    bool "COMMON (curated, Samsung/Garmin included)"
+config NABTOOLS_SIG_EXTENDED
+    bool "EXTENDED (curated companies, all supported UUID names)"
+config NABTOOLS_SIG_FULL
+    bool "FULL (all names in supported tables, no GSS descriptions)"
+endchoice
+endmenu

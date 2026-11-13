@@ -1,0 +1,131 @@
+{
+  "contractVersion": 5,
+  "entities": [
+    {
+      "id": "e_app",
+      "kind": "app",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_engine",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_backend",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_gatt",
+      "kind": "interface",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_modules",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_device",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_actions",
+      "kind": "interface",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_research",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_sig",
+      "kind": "database",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_journal",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_views",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_transport",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_web",
+      "kind": "app",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_lcd",
+      "kind": "app",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_queue",
+      "kind": "component",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_advert",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_recognize",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_admit",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_identity",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_active",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    },
+    {
+      "id": "e_remove",
+      "kind": "stage",
+      "origin": "authored",
+      "status": "present"
+    }
+  ]
+}

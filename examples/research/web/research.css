@@ -1,0 +1,62 @@
+/* SPDX-License-Identifier: MIT */
+/* Copyright (c) 2026 Oleg Kozhevnikov */
+/* Application layout; shared shell/theme tokens remain in the copied template. */
+[hidden]{display:none!important}
+.workspace-columns.single-pane{--workspace-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr);min-height:0;overflow:hidden}
+.workspace-page{height:100%;min-height:0}
+.device-columns{--workspace-columns:minmax(410px,.8fr) minmax(490px,1.4fr);grid-template-rows:minmax(0,1fr)}
+.device-columns{overflow-x:auto}
+.message-heading{justify-content:space-between;padding:1px 4px}
+.message-heading h3{font-size:13px;margin:0}
+#selected-device-info{font-variant-numeric:tabular-nums}
+#device-interactions{display:grid;grid-template-columns:minmax(200px,1fr) minmax(200px,1fr);gap:0 6px}
+.interaction-group{min-width:0}
+.message-toolbar{padding:1px 3px}.message-toolbar select{flex:1;min-width:100px;max-width:100%}
+.message-toolbar label{display:flex;align-items:center;white-space:nowrap}
+.field-path{max-width:220px;overflow:hidden;text-overflow:ellipsis;font-family:Consolas,monospace}
+.field-value{max-width:380px;overflow:hidden;text-overflow:ellipsis;font-variant-numeric:tabular-nums}
+tr.recognized{background:color-mix(in srgb,var(--lu-success) 9%,var(--lu-surface))}
+td.handler-name{color:var(--lu-success)}td.handler-name button{margin-left:4px}
+tr.selected{box-shadow:inset 2px 0 var(--lu-primary)}
+#observations{table-layout:fixed;min-width:1450px}
+#observations th:nth-child(1){width:160px}#observations th:nth-child(2){width:130px}
+#observations th:nth-child(3){width:120px}#observations th:nth-child(4){width:165px}
+#observations th:nth-child(5){width:190px}#observations th:nth-child(6){width:150px}
+#observations th:nth-child(7){width:50px}#observations th:nth-child(8){width:55px}
+#observations th:nth-child(9){width:70px}#observations th:nth-child(10){width:200px}
+#observations th:nth-child(11){width:75px}
+#observations td.device-kind,#observations td.capabilities,#observations td.classification-basis{overflow:hidden;text-overflow:ellipsis}
+#observations th button{display:inline-flex;align-items:center;gap:3px;width:100%;min-height:0;padding:0;border:0;background:transparent;color:inherit;font:inherit;text-align:inherit;white-space:nowrap}
+#observations th.number button{justify-content:flex-end}
+#observations th button::after{content:'↕';font-size:10px;opacity:.4}
+#observations th[aria-sort=ascending] button::after{content:'▲';opacity:1}
+#observations th[aria-sort=descending] button::after{content:'▼';opacity:1}
+td.handler-name>.handler-choice{display:inline-flex;vertical-align:middle;align-items:center;max-width:100%}
+td.handler-name>.handler-choice>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+td.handler-name>.handler-choice>button{flex:none}
+#devices td:first-child{max-width:180px;overflow:hidden;text-overflow:ellipsis}
+#devices button{white-space:nowrap}
+#device-interactions h3,#device-interactions h4{font-size:13px;margin:1px 0}
+#device-interactions p{margin:3px 0}
+#device-interactions td:last-child{width:100px;text-align:right}
+.workspace-pane.panel{height:100%;overflow-y:scroll;overflow-x:auto}
+.workspace-pane.panel{margin:0;border-radius:0}.workspace-pane-header{font-size:14px}
+td{white-space:nowrap;vertical-align:middle}th{position:sticky;top:21px;z-index:1}
+td.device-name{max-width:220px;overflow:hidden;text-overflow:ellipsis}
+td.company-name{max-width:230px;overflow:hidden;text-overflow:ellipsis}
+td.mac{font-family:Consolas,monospace;font-size:12px}.shell-sidebar{width:220px}
+.shell-content{overflow:hidden;display:flex;flex-direction:column}.workspace-pane{scrollbar-gutter:stable}
+.shell-content>.workspace-page{height:auto;flex:1}
+#message{min-height:18px;color:var(--lu-text-muted);flex:none}#message.error{color:var(--lu-danger)}
+#filter{width:210px}#totals{font-size:12px;font-variant-numeric:tabular-nums}
+#scan-state{margin-right:4px}
+dialog{color:var(--lu-text);background:var(--lu-surface);border:1px solid var(--lu-border);padding:0;max-width:90vw;max-height:85vh}
+dialog::backdrop{background:#0006}dialog pre{padding:10px;overflow:auto;max-height:65vh;font-size:13px;min-width:420px}
+dialog .panel-header{justify-content:space-between}#settings{height:100%;overflow:auto}
+#settings dl{display:grid;grid-template-columns:170px 1fr;gap:5px}dt{font-weight:600}dd{margin:0}
+.fixture{color:var(--lu-warning)}
+@media(max-width:800px){.shell-sidebar{width:48px}#filter{width:180px}.shell-stats{max-width:35vw;overflow:hidden;text-overflow:ellipsis}}
+
+.workspace-pane-header{height:21px;min-height:21px;line-height:18px}
+.workspace-pane-header h2{font-size:14px;line-height:18px}
+#device-interactions .panel-body,#selected-device-info{padding:2px 4px}

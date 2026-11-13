@@ -1,0 +1,15 @@
+{
+  "name": "nabtools-research",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test examples/research/tests/web/*.test.mjs",
+    "preview": "node examples/research/tools/preview_research.mjs"
+  },
+  "devDependencies": {
+    "cborg": "6.1.3",
+    "jsdom": "29.1.1",
+    "ws": "8.22.0"
+  },
+  "license": "MIT"
+}

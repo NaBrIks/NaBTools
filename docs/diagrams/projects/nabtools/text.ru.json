@@ -1,0 +1,294 @@
+{
+  "contractVersion": 5,
+  "language": "ru",
+  "entries": {
+    "e_app": {
+      "name": {
+        "v": "Исследовательская прошивка",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "examples/research/main/main.cpp: собирает модули и Actions, владеет Wi-Fi, очередью команд и UI. Прикладная конфигурация не входит в BtEngine.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_engine": {
+      "name": {
+        "v": "BtEngine · движок BT",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "include/NaBTools/bt/engine.hpp; src/bt/engine.cpp. Владеет backend, модулями и устройствами; сериализует poll, attach, invoke и remove. Не знает Samsung, HRS, CBOR, вебку и LVGL.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_backend": {
+      "name": {
+        "v": "ESP-IDF backend",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "backends/espidf/espidf_backend.cpp. Bluetooth SDK, bounded callback queues, копирование входящих данных, сканирование и универсальный GATT. Пауза scan/open принадлежит этому адаптеру.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_gatt": {
+      "name": {
+        "v": "IGattClient · общий GATT",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "include/NaBTools/bt/gatt/client.hpp. Connect, discovery, read/write, subscribe и события соединения. Протокол конкретного прибора сюда не входит.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_modules": {
+      "name": {
+        "v": "IModule · модули",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "IModule наблюдает эфир, отдельно recognize и create. Определение типа не создаёт экземпляр автоматически. Модули Heart Rate, TomTom TPMS и экспериментальный Samsung живут отдельно.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_device": {
+      "name": {
+        "v": "IDevice · экземпляр",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "IDevice хранит состояние протокола и ресурсы. Принимает advertisement и GATT, объявляет команды/события; освобождает своё состояние при удалении движком.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_actions": {
+      "name": {
+        "v": "Actions · выходы данных",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "include/NaBTools/core/action.hpp. Приложение собирает STRUCT, прямой CBOR или оба выхода. Не требуется промежуточный универсальный объект; за доставку в свои подсистемы отвечает приложение.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_research": {
+      "name": {
+        "v": "ResearchModule · анализатор",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "include/NaBTools/research/research.hpp. Ограниченные наблюдения эфира, поля AD, сырые неизвестные данные и распознавание. Borrowed view не сохраняется за пределами синхронного вызова.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_sig": {
+      "name": {
+        "v": "SIG · подключаемый каталог",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "include/NaBTools/catalogs/sig/sig.hpp. Имена компаний, AD и UUID. Размер выбирается конфигурацией: OFF/COMMON/EXTENDED/FULL; lookup может не найти имя, сырое значение сохраняется.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_journal": {
+      "name": {
+        "v": "MessageJournal · CBOR",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "integrations/research/journal.hpp. Ограниченный журнал копирует готовый CBOR из Actions, хранит схему, DeviceId и последовательность. Это адаптер демки, не обязательная часть движка.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_views": {
+      "name": {
+        "v": "LiveViews · изменения",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "integrations/research/live_views.hpp и stream.hpp. Один changes-конверт: reset со снимком и обычные изменения; boot_id и seq позволяют восстановить состояние.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_transport": {
+      "name": {
+        "v": "NaWServer · WS/CBOR",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "examples/research/main/live_transport.cpp. HTTP раздаёт только assets, бинарный WS доставляет изменения, snapshot и команды. Callback не вызывает BtEngine напрямую.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_web": {
+      "name": {
+        "v": "Веб-интерфейс",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "examples/research/web. Общие таблицы наблюдений, экземпляров, capabilities и полученного CBOR. Без полей, зашитых для HRM/TPMS/Samsung.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_lcd": {
+      "name": {
+        "v": "LVGL · экран S3",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "examples/research/display/research_lcd7. Опциональный профиль 800×480: Air, Devices, CBOR. Читает те же ResearchModule и MessageJournal, команды идут в общую очередь приложения.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_queue": {
+      "name": {
+        "v": "Очередь команд",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "examples/research/main/main.cpp и integrations/research/command.cpp. WS и LVGL подают команды; только основной task исполняет scan/attach/invoke/remove, затем публикует результат.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_advert": {
+      "name": {
+        "v": "1 · Наблюдение эфира",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Owned Advertisement приходит из SDK-очереди; заимствованный AdvertisementView действителен только во время синхронного разбора.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_recognize": {
+      "name": {
+        "v": "2 · Распознавание",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "engine.recognize() собирает предложения модулей. Минимальная проверка «моё/не моё» отделена от диагностического описания и не означает admission.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_admit": {
+      "name": {
+        "v": "3 · Явное добавление",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Приложение выбирает module_key и наблюдение; attach вызывает factory модуля. Исследовательская демка делает это кнопкой Add.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_identity": {
+      "name": {
+        "v": "4 · DeviceId с поколением",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Движок хранит unique_ptr в ограниченном слоте. DeviceId включает поколение: повторно занятый слот не становится прежним прибором. MAC сам по себе не вечная идентичность.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_active": {
+      "name": {
+        "v": "5 · Работа экземпляра",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Advertisement, GATT, invoke и Actions обрабатываются последовательно в контексте engine.poll/команд приложения. Драйвер владеет состоянием протокола.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "e_remove": {
+      "name": {
+        "v": "6 · Удаление и очистка",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "remove_device проверяет поколение, откладывает разрушение при dispatch, освобождает связанные GATT-ресурсы. Старые команды/события не адресуют новый экземпляр.",
+        "at": "2026-10-28T08:02:05Z",
+        "origin": "authored"
+      }
+    },
+    "v_architecture": {
+      "name": {
+        "v": "01 · Компоненты и ответственность",
+        "at": "2026-10-28T08:02:25Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Авторская архитектурная карта по исходникам; не автоматический граф вызовов. Подробности и относительные пути — в описаниях элементов. Состояние на 28.10.2026.",
+        "at": "2026-10-28T08:02:25Z",
+        "origin": "authored"
+      }
+    },
+    "v_data": {
+      "name": {
+        "v": "02 · Данные и управление",
+        "at": "2026-10-28T08:02:25Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Поток наблюдений, CBOR и пользовательских команд. Возврат queue → engine скрыт только на этом виде для читаемости; команды исполняются основным task и показаны на карте компонентов. Снимок и дельты используют общий changes-конверт. Это авторская карта, не автоматический граф вызовов.",
+        "at": "2026-10-28T08:05:38Z",
+        "origin": "authored"
+      }
+    },
+    "v_lifecycle": {
+      "name": {
+        "v": "03 · Жизненный цикл устройств",
+        "at": "2026-10-28T08:02:25Z",
+        "origin": "authored"
+      },
+      "description": {
+        "v": "Авторская архитектурная карта по исходникам; не автоматический граф вызовов. Подробности и относительные пути — в описаниях элементов. Состояние на 28.10.2026.",
+        "at": "2026-10-28T08:02:25Z",
+        "origin": "authored"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_project": "NaCBORUIforLVGL",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "source": "examples/s3_style_lab/main/board.cpp",
+      "source_sha256": "9d285d5b26f52689c1604e326aa0b6206c8c1eb15bb259b1c95f844778aa44f3",
+      "destination": "board.cpp"
+    },
+    {
+      "source": "examples/s3_style_lab/main/board.hpp",
+      "source_sha256": "db8aea7ae07935ebaf583cfb7532f1cd0af2d8a570e0e2a31cfac50740be7a5a",
+      "destination": "board.hpp"
+    }
+  ],
+  "adaptation": "Board-specific RGB/GT911 driver retained; touch build flag and license comment adapted. Internal RGB bounce buffers reduced from 16 to 8 lines for concurrent BLE/Wi-Fi. No Bluetooth code copied."
+}

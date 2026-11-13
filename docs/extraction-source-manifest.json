@@ -1,0 +1,3087 @@
+[
+  {
+    "Path": "library.json",
+    "Sha256": "6D2E7191C62CA6C5DD0216DB9D6D4C78D6A0321CD9247B51B8167166BDE73A2F",
+    "Bytes": 340
+  },
+  {
+    "Path": "bluetooth-SIG/.gitignore",
+    "Sha256": "A61D6BB3E584F962C46F1B76652D30DB834D3879FD57E0C0F4F4CD76CD5D1694",
+    "Bytes": 674
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/company_identifiers/company_identifiers.yaml",
+    "Sha256": "7AE8C406CA83752395B5A8BC2069669118F5409352A23424B959AB28F1C06CEE",
+    "Bytes": 205239
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/ad_types.yaml",
+    "Sha256": "3459D85BCDDF5E3AD01131AC1165EDCA0A3C5F5E1832DE784416763177AB9EFD",
+    "Bytes": 7982
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/amp.yaml",
+    "Sha256": "D5CF663462E3FE2922E61FA1943EF84DAC6735D5F4FA1CFE62B7E47C03192F9F",
+    "Bytes": 2317
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/appearance_values.yaml",
+    "Sha256": "4125F3CC8D9E8F7F70420F9250C306F8E3D5FF341D54F6F2E64DA1E8CC03CE39",
+    "Bytes": 17307
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/class_of_device.yaml",
+    "Sha256": "A6A2A59E2C021474DEEA27081F87008F7D3ABF3585D856355902C0BCA90B9A22",
+    "Bytes": 7695
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/coding_format.yaml",
+    "Sha256": "08F34C59F6DD1B708428B3A7618ECD7BC41EB01DA18B18E9C2649C738C012357",
+    "Bytes": 2311
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/core_version.yaml",
+    "Sha256": "67C5D86B970DA07AFA4A92264436959AE0507481DB15D9CEB90C5B181146956B",
+    "Bytes": 3018
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/diacs.yaml",
+    "Sha256": "021155965C378E424DBEDBC085B3E48DEAF11E677FED58AD381207494DDC6B84",
+    "Bytes": 2117
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/formattypes.yaml",
+    "Sha256": "18D800B62130D493968CC946CACEC4141677EF5390CC5B7B13E6D7606B078F41",
+    "Bytes": 5095
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/mws_channel_type.yaml",
+    "Sha256": "4A36A2BEEB354ACA2F90144D070E558BE4DFD1621C3C2090B51C804037E13C0B",
+    "Bytes": 2059
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/namespace.yaml",
+    "Sha256": "C0EC1BF6C0C762D7F805FF654A8974C6653FB1F8FD11355A837808DDA4759373",
+    "Bytes": 15210
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/namespaces.yaml",
+    "Sha256": "9F2A62D9EC0CE2786E02EC6D2BBCA582D90A14CB712EED8F67F0181F744CB1AE",
+    "Bytes": 2032
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/pcm_data_format.yaml",
+    "Sha256": "46ABE591625664037CEFE43308D231C0E5BAE72BCAD5242647519A4D09A64289",
+    "Bytes": 2190
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/psm.yaml",
+    "Sha256": "8453C4559060D216223DE6293C0A952AD7C2A05049F02923A81D21ED6CF9F6B8",
+    "Bytes": 2569
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/sdp_base_uuid.yaml",
+    "Sha256": "84D0EFA1C3D9BD0354C1BB037DA5CC0CEACA3F9CB6D87CFCCFAB3D96AFBA417F",
+    "Bytes": 2068
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/transport_layers.yaml",
+    "Sha256": "0508BA9BD6F7766CE998AD760B53469AC956746B1CDA6863BDC9DA8323270D72",
+    "Bytes": 2117
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/core/uri_schemes.yaml",
+    "Sha256": "BB3B219A144384BC572DA55B79A69B4853B04C51D0196F27B625D233AAFACE0A",
+    "Bytes": 8971
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/dfumbt_model_uuids.yaml",
+    "Sha256": "0F27FEC1FAB2B92622BB558E8573E8B07DC35DA5E281A3533BFB574DDEE309EB",
+    "Bytes": 2390
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/dfumbt_opcodes.yaml",
+    "Sha256": "C148B25A8F2C050844A2A9E182D96D9714FF9D46624235C4A7B7DB971D093F94",
+    "Bytes": 5140
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/iec_model_uuids.yaml",
+    "Sha256": "7098A27045E69BE31A7125E584F3A150779D74AD4ABF11746428C026D20AAF50",
+    "Bytes": 2061
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/iec_opcodes.yaml",
+    "Sha256": "22312927187610CBE806EA8010DD2CF731DADE0A92DF9109C1A8336EFA58A795",
+    "Bytes": 2063
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_beacon_types.yaml",
+    "Sha256": "32A80AC9B33C91EE1136C4A40BB3C809D4D3A696FE622BA3678FA6236D2675DD",
+    "Bytes": 2147
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_health_faults.yaml",
+    "Sha256": "BA92261D3D7C5D174F88769C0B45B1980CF84348BF93CC5205B19752105B8D17",
+    "Bytes": 4540
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_metadata_ids.yaml",
+    "Sha256": "20F6121BC3F1C41038AAC6EB367F05F2D2336833EB124EFC7D306BE9FF2BFD4C",
+    "Bytes": 2440
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_model_uuids.yaml",
+    "Sha256": "B8DBFCC0D3EA1DAB912D2A4E4182620742252D3A8608312EB02C57CE67A2000C",
+    "Bytes": 3678
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_opcodes.yaml",
+    "Sha256": "33296B5A4F23E86A42033ECFBF524B72A2DDE8BE228FA8FCE2A849DE5CE76221",
+    "Bytes": 17124
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_provisioning_pdu_types.yaml",
+    "Sha256": "176B9739833CA16945C09D733DDB17CDCBD5576D0CD96FC2631A728DE1F41D0F",
+    "Bytes": 4044
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_proxy_pdu_types.yaml",
+    "Sha256": "198AD3A1C3169294AB95F8F9847CF30AADC9686E6BA5F5C53C3D4410EE80855D",
+    "Bytes": 2372
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mesh_transport_control_opcodes.yaml",
+    "Sha256": "B60590DF1B44CE9F66627A87707D73A2EB39C6783AED76B800772D3F959CD980",
+    "Bytes": 4901
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mmdl_light_purposes.yaml",
+    "Sha256": "31B1ED2D7465272F0BA05A46A98CAB5C34AA55A26767462514476BB8ECC5449B",
+    "Bytes": 3078
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mmdl_model_uuids.yaml",
+    "Sha256": "C66182907F55C3C6E8240AEB56C6248EA49CD335168D33E022A24E0A2E0FA5AB",
+    "Bytes": 5415
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/mesh/mmdl_opcodes.yaml",
+    "Sha256": "1C3DF4A4E237E36FD66C427D17CE75B686297CA4748C0D18A0861CB5291DC2A7",
+    "Bytes": 15755
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/a2dp/a2dp.yaml",
+    "Sha256": "0C5E0F05B8AA4E5800BC6D98225AF3C9B3B3530F6A93329DB389D3F451E95400",
+    "Bytes": 2503
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avdtp/avdtp_content_protection_method.yaml",
+    "Sha256": "44CA4AD1C1F0D84C5839C1FA57A016EE4DB9AFE4104A3370278B47FAAA95729B",
+    "Bytes": 3056
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avdtp/avdtp_media_type.yaml",
+    "Sha256": "5BA15129D4C1CC4BCD9E21F48A51375D695D636AC45A820E24C156A05C7438B0",
+    "Bytes": 2115
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_folder_type.yaml",
+    "Sha256": "BA5430997B5548D57908D3AECD050803B3259D8612E0E3FF3388126106BD31C0",
+    "Bytes": 2275
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_major_player_type.yaml",
+    "Sha256": "6E753C05D0057EFF2E6CDAC92411CBBFF1DC7004F17E5CF29590B30BF456CFAB",
+    "Bytes": 2181
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_media_attributes.yaml",
+    "Sha256": "816679032AF069C5A48D6C4FD413F5023A5E5616C6806381CF0B93764640A085",
+    "Bytes": 2480
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_media_type.yaml",
+    "Sha256": "BA0F22E1292173CAFEC11086798130F7172350E432F8095BD8C07F8D8C24F5E0",
+    "Bytes": 2070
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_player_application_settings.yaml",
+    "Sha256": "9B2F49DD0561B79EC59A9606567C507D75190D49E07B39C13A8866C59C90BF00",
+    "Bytes": 3092
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/avrcp/avrcp_player_sub_type.yaml",
+    "Sha256": "E3A44731195B74EC0D60D3030DD195CD563FD44CD375750E42FADC1B16DD2DCF",
+    "Bytes": 2094
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/esl/display_types.yaml",
+    "Sha256": "938977674A53FBC3785BC70B3EE98CCFD5FBC50FED195B3F1012D79B1092C827",
+    "Bytes": 2455
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/ess/ess_permitted_characteristics.yaml",
+    "Sha256": "0566C926449CEDB813561A4A0FFA7F0E0588D0A3594E6F4DE5F3BBD69F0804CF",
+    "Bytes": 3867
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/audio_input_type_definitions.yaml",
+    "Sha256": "E89E28A77A57C2D6C38DFFBC5FE4F48553E79864BE58A69135CFDE55C6BA06C7",
+    "Bytes": 2584
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/audio_location_definitions.yaml",
+    "Sha256": "8EF4ABC5C883912FC24532CB08DF01CF0C481C1F46AB8050105A6251423262C8",
+    "Bytes": 3700
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/context_type.yaml",
+    "Sha256": "A2FE828D738E8A4F501F2E06CBE466F38262891CE9A28A105DD9F1B89EA001D8",
+    "Bytes": 4193
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_capabilities/supported_audio_channel_counts.yaml",
+    "Sha256": "7A410B72B5D4F6C59C05722F97A1992777A439A3855B3E10F548F361058EB660",
+    "Bytes": 2722
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_capabilities/supported_frame_durations.yaml",
+    "Sha256": "88B8D9570E12FC1DB25AB6CCB70E4269611D716B8C55CD4C2986FD9B8E7ACF53",
+    "Bytes": 2654
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_capabilities/supported_max_codec_frames_per_sdu.yaml",
+    "Sha256": "3FD3886CC3D515BD8794EF271C43F9F0870604FC4365BCBBA85B8573AA940DD4",
+    "Bytes": 2226
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_capabilities/supported_octets_per_codec_frame.yaml",
+    "Sha256": "92000F27BBBCDAFA69E9D0519B079FB5DDF52FBCFBA9279609D465C14145987C",
+    "Bytes": 2340
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_capabilities/supported_sampling_frequencies.yaml",
+    "Sha256": "C07ADB4D27764DE4BC22CB53F398342DD85BD5BCB4335751471A66447EDA1387",
+    "Bytes": 2849
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_configuration_ltv/audio_channel_allocation_configuration.yaml",
+    "Sha256": "379AEA54D653BD37D62991A302F5E2B756FF7E9723F766F71B9D6D22AD556174",
+    "Bytes": 2204
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_configuration_ltv/codec_frame_blocks_per_sdu_configuration.yaml",
+    "Sha256": "FF7041B4B3E9BBDF143939C529602B1AF718B24F4372FD4C2C8DDD7FAC846810",
+    "Bytes": 2203
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_configuration_ltv/frame_duration_configuration.yaml",
+    "Sha256": "10EF99813D76246D83A9D4999C1708F845B12C365BDC1526020F9388D3A26562",
+    "Bytes": 2323
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_configuration_ltv/octets_per_codec_frame_configuration.yaml",
+    "Sha256": "30492705008F6A864A8CF10D0CA2E29FC7329AB6E99E37C86060A4B5D975C478",
+    "Bytes": 2200
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/codec_configuration_ltv/sampling_frequency_configuration.yaml",
+    "Sha256": "955B8A3E7A0680CCD6E40A2B20F617413A461E2F40E4C63DFCDB040DA543D6C7",
+    "Bytes": 2795
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/assisted_listening_stream.yaml",
+    "Sha256": "E43DB17FAA94D88CD0C7AA6FF5457BCAB1E5368441BD83FBB7E9E731278A1B63",
+    "Bytes": 2331
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/audio_active_state.yaml",
+    "Sha256": "E380BD3CBFA6BB2D764F5BD6ABE91F46F1A578D503CBBE1967FBC049A885EE66",
+    "Bytes": 2295
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/broadcast_audio_immediate_rendering_flag.yaml",
+    "Sha256": "E3801BA7E714E708DBC79A745B29A565C29EAD39B7ED7C34C61D4F46ED0A02CA",
+    "Bytes": 2109
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/broadcast_name.yaml",
+    "Sha256": "3B30354D1C18D494C915DB5DF69E30B59E172CCFE17DA71C9ED0F6324D8A3EEF",
+    "Bytes": 2228
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/ccid_list.yaml",
+    "Sha256": "837265C50AD1DD86C22B219B862362342CCBBB8BE7A5E4685B4D05B70F2B7680",
+    "Bytes": 2190
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/extended_metadata.yaml",
+    "Sha256": "105C46C8B6EFA8FF8193A3C70786526332AB8D94944AF4FB1B7AF1C9AC19B189",
+    "Bytes": 2290
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/language.yaml",
+    "Sha256": "495D0255B7A815C1D24D9B981888472F6EF1E69F5CEDB3104BC19AA3FB9C4A3C",
+    "Bytes": 2219
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/parental_rating.yaml",
+    "Sha256": "069BC54B83E37D05F4833A95EBE7E7DB9F1B40E4C46E0413471457EC13FCE130",
+    "Bytes": 2732
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/preferred_audio_contexts.yaml",
+    "Sha256": "CE6F0BA15AD2A698A6E904CDDBC022E2B22C53CF8A47E256F25F6373E7165475",
+    "Bytes": 2470
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/program_info.yaml",
+    "Sha256": "6D78C53F8A1DE52EAC47CADE1D821E63E39856A85FDB361AC726EF8169C7281D",
+    "Bytes": 2230
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/programinfo_uri.yaml",
+    "Sha256": "D9648B720DF9DD1ED29D5F8E792397EBDD84D0EF547FF382847AA85B19607423",
+    "Bytes": 2248
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/streaming_audio_contexts.yaml",
+    "Sha256": "842AD613D1D79EB4CF65266464D148AB5D8B786B00CCEA8BAB4CF0953E88A28B",
+    "Bytes": 2453
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/generic_audio/metadata_ltv/vendor_specific.yaml",
+    "Sha256": "C1F2EE06CEB39D27ED7DE3E4B43835A3DC1EDC216C33DB017B1D8F14C29E9F8E",
+    "Bytes": 2365
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/hdp/data_exchange_specs.yaml",
+    "Sha256": "F43C7A77B8F2826C00761420C285171349CFFA00B5CA09010BDC11825DC696F1",
+    "Bytes": 2197
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/hdp/device_data_specs.yaml",
+    "Sha256": "457EF37E76B3C3A477DBED741011140A813D80187087CFBBEE039D18789C443D",
+    "Bytes": 9276
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/hfp/bearer_technology.yaml",
+    "Sha256": "58AFF4632544998ED8961C32B5D015E891545DFDA3F3342DD5C43E7472D3A1B5",
+    "Bytes": 2270
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/hfp/hf_indicators.yaml",
+    "Sha256": "33BA91781C3B609AF1DF68C483542232806428A6EDBF55EF7FD9F63F87E2E0AE",
+    "Bytes": 2241
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/imds/imds_permitted_characteristics.yaml",
+    "Sha256": "ACB0DD417988D60224C467B52FCBBB6C88E3720A4D6BCEF930F5AFF6B7881DC5",
+    "Bytes": 2423
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/map/chat_state.yaml",
+    "Sha256": "5CED46FCBB4535EB63D9FFB731D198B3B15C9AE185FE93394ADE8D39A938A26F",
+    "Bytes": 2204
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/map/message_extended_data.yaml",
+    "Sha256": "4F9FD3E7AC8DC7BF545E4754D350E85934912C2D4B5A3A0E4CB09ED1E03E58AE",
+    "Bytes": 2288
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/map/presence.yaml",
+    "Sha256": "F86BC8362FEAA065579A9FA39F31B49D50111681C3D91425A94422D63F415A30",
+    "Bytes": 2233
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/tbs/uniform_caller_identifiers.yaml",
+    "Sha256": "F308B2FD41C2B7976EC62CE10C383F149DDA77A243B12FCD5D11C81EA673333F",
+    "Bytes": 5167
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/tds/transport_discovery_service_id.yaml",
+    "Sha256": "08076D66C1A367DF69A2A266933E05573FA009FFE712F6613C2236C9150EF173",
+    "Bytes": 2167
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/uds/uds_permitted_characteristics.yaml",
+    "Sha256": "F5CEF943685AF1D36B710C17EF52390DF9FF346B5CA156BA1AE476F91D42D5C1",
+    "Bytes": 4285
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/profiles_and_services/vdp/vdp.yaml",
+    "Sha256": "E48D4A1C6B635A42948894DE7C484AC84F46F2CA95F992896D69DA451E0C6AFB",
+    "Bytes": 2422
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_id_offsets_for_strings.yaml",
+    "Sha256": "C342B9E8ACC2C2FFEAA8C66FF94105A503B82F097B22E36A030CFCDCFF74B57E",
+    "Bytes": 2123
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/protocol_parameters.yaml",
+    "Sha256": "8ACD05B0A16D982400934989A4018B863780661DDDF35A5AF2107B09CD386C25",
+    "Bytes": 2319
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/a2dp.yaml",
+    "Sha256": "6654458ACADC1B5C286390A5D6A0CAA7A63487569C4B36619111AF925B581C65",
+    "Bytes": 2042
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/avrcp.yaml",
+    "Sha256": "6654458ACADC1B5C286390A5D6A0CAA7A63487569C4B36619111AF925B581C65",
+    "Bytes": 2042
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/bip.yaml",
+    "Sha256": "D88ECDCDFDFBE3E305882933EED3587A562EADFFE95167688F1EEF7FC08AA287",
+    "Bytes": 2259
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/bpp.yaml",
+    "Sha256": "D4D2CC587DFFF7054C2F7118F45D8240EBF9A79CADC7459D45B6F07F2B8F7BCE",
+    "Bytes": 2943
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/browse_group_descriptor_service.yaml",
+    "Sha256": "C90707EB6F6157216317F203DC1D49C3908B522A1A2F629136177EA4DD334568",
+    "Bytes": 2031
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/calendar_tasks_and_notes.yaml",
+    "Sha256": "DA5002720AF4E101D1E0FF8465DD7FFDEE744601CB7DDECBFD343E07A4388DC3",
+    "Bytes": 2089
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/cordless_telephony_profile.yaml",
+    "Sha256": "DA03DEA7C4BAB53B0173A21BE39B8A7F622A2C63AEEFAF8297540A67397A89E1",
+    "Bytes": 2040
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/device_identification_profile.yaml",
+    "Sha256": "8304FA03EDF70D29DB1DE01F3577068B6E8658B4C4F002B9260209677BD9BECB",
+    "Bytes": 2235
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/dun.yaml",
+    "Sha256": "4FB8F9C39513D3EBF17EE8C41C02BC00B89F21241B0A51F7458C2D8A59A7A0EA",
+    "Bytes": 2046
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/fax_profile.yaml",
+    "Sha256": "D991E68987D424A032388E19EB6BC7CAEDBABE49E59740AAFC2DD64F9DF2D817",
+    "Bytes": 2215
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/file_transfer_profile.yaml",
+    "Sha256": "A049B1AF4FE673D81EFC80C438798027EA2ED4291728B22E3AA3906C6AB3C67E",
+    "Bytes": 2057
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/gnss.yaml",
+    "Sha256": "C881C171C62F9F1B5D3592845A849259C1C1316912854DB08F4F9D0A71C04D1E",
+    "Bytes": 2041
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/hands_free_profile.yaml",
+    "Sha256": "51F5B2B6573F0D83F9946486CB2CA886208298ECCD652FBF709EA1ECAEA89C0C",
+    "Bytes": 2077
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/hardcopy_replacement_profile.yaml",
+    "Sha256": "E84A6037A5182F060491D1DED425D260AB921DA185132A044B53B256B20A2F86",
+    "Bytes": 2156
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/headset_profile.yaml",
+    "Sha256": "DB83DDDDB627B682961E5A0B6FE716CDE6D06835AA602847D9421218190C325D",
+    "Bytes": 2051
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/health_device_profile.yaml",
+    "Sha256": "0668D62AA4CD3AB1EB1419BDDFF7D9AE533E3596BF3FC8CF397E3B394C3311FA",
+    "Bytes": 2152
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/human_interface_device_profile.yaml",
+    "Sha256": "6CD91B5829DC8584E97F38C73975D84C12898B72AE9A50B596566175D2BA282B",
+    "Bytes": 2828
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/interoperability_requirements.yaml",
+    "Sha256": "C65567F04B9F1D3B6A72FBAB598A312DB3B8847EAEF5E627ED7A1DF6F48B1DA5",
+    "Bytes": 2158
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/message_access_profile.yaml",
+    "Sha256": "EAA41B7858C2D33DF0BA6270EB3D17FDC55B12210FE8C8CAB25AB6D2A929A2D4",
+    "Bytes": 2219
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/multi_profile.yaml",
+    "Sha256": "72C63A9276EC75AB5CAB7B4BCA60C4A12FD74172E546786BB35EAE6D7A9D2EED",
+    "Bytes": 2172
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/object_push_profile.yaml",
+    "Sha256": "F52E988C76DAF17C8C8A80D2831BE414D4A46F96D1B00D6F64B7432ED4CB8FF2",
+    "Bytes": 2152
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/pan_profile.yaml",
+    "Sha256": "B6BDA670F11490AAC0E7669B24F75A47B4B242BCC3CBA1F75A8EE4A185F2767F",
+    "Bytes": 2269
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/phone_book_access_profile.yaml",
+    "Sha256": "8F2CB07F3C0A564316D2816BD67DA6273738FEB6045538319E50C14BDA38192D",
+    "Bytes": 2181
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/sdp.yaml",
+    "Sha256": "BFD25776F27C41614079985AB3AF2C9D6FC0406C20F927C4939708BFC5F261EE",
+    "Bytes": 2090
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/synchronization_profile.yaml",
+    "Sha256": "4D1C5A65008B7116AC9733EB50F385F71233D13CE2A47B06E2C4D17E32B1EB6B",
+    "Bytes": 2050
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/service_discovery/attribute_ids/universal_attributes.yaml",
+    "Sha256": "20B63E0F41C510129C6601DC730DB292CCABB2DC41A0262EC87C3843A091A178",
+    "Bytes": 2674
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/browse_group_identifiers.yaml",
+    "Sha256": "C095E7CB34459215F1F6751F8A4C0B927610C40E3E24E091441D208ABC884408",
+    "Bytes": 2085
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/characteristic_uuids.yaml",
+    "Sha256": "23C25E3D60741B5323A76D5848F62BE31335ABF459FF8891F33B5BCE2183D525",
+    "Bytes": 51676
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/declarations.yaml",
+    "Sha256": "0D118C77C7BA0BD418582FA6C4A2D97FD3DAFAA5DBF7F3A9A5945970BAB425D9",
+    "Bytes": 2405
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/descriptors.yaml",
+    "Sha256": "CCE0113D06470C30031EDADBAC7AB92E2975E7D769FEDD8A7510A9D75CCB465D",
+    "Bytes": 4470
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/member_uuids.yaml",
+    "Sha256": "79FB5E7D41E6E703157D32BEF3523610CA221DBCC4C4ED84E5665C0405DBF194",
+    "Bytes": 33638
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/mesh_profile_uuids.yaml",
+    "Sha256": "6675AA0EA2C8EF81D8EEF07A3FA3CFDB7D4E4214C01B3457DBD090F0EEFCE554",
+    "Bytes": 2362
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/object_types.yaml",
+    "Sha256": "4D4D8176D8E8EE5C9B8A482E88CBB60BC1E8B525B244848A61EF1883BA190631",
+    "Bytes": 2472
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/protocol_identifiers.yaml",
+    "Sha256": "2DDF7E98C85AE6056567175A4D570778AAB27185882923E0CDF73C5521DDCDDD",
+    "Bytes": 2850
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/sdo_uuids.yaml",
+    "Sha256": "32617BB7D66219C941453DDB67E487D5935D46CDF6D84E17D16D6204A1DD9F03",
+    "Bytes": 2864
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/service_class.yaml",
+    "Sha256": "CAED28B1DF42681F7A572304B8ADF7B5A53D36B8D65CE42BF91F2EB76F21A914",
+    "Bytes": 9304
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/service_uuids.yaml",
+    "Sha256": "46E3C4F0C49EE1BA8A6CA84C34714C59341808BCDD346BE0AFEA2E33551BEDCA",
+    "Bytes": 8652
+  },
+  {
+    "Path": "bluetooth-SIG/assigned_numbers/uuids/units.yaml",
+    "Sha256": "25939A105B7EC0B26EA4B20BB006A9FA271479496277E782540DBA4953A93F57",
+    "Bytes": 15679
+  },
+  {
+    "Path": "bluetooth-SIG/dp/property_groups.yaml",
+    "Sha256": "C3724CF5CD0105E9CB2832FBB94D5AD8D6829CC6BDF17757408819E87F22EFA8",
+    "Bytes": 7005
+  },
+  {
+    "Path": "bluetooth-SIG/dp/property_ids.yaml",
+    "Sha256": "B3D9E34867BAD681E7E25949F6F63C3443698073FBCB44BA49A555B98CDAE289",
+    "Bytes": 18745
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.active_energy_loadside.yaml",
+    "Sha256": "8CB34B55EBABBB28B898A268710A43570E2B02B8478BEAE452D8A6C418D5A46D",
+    "Bytes": 2379
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.active_power_loadside.yaml",
+    "Sha256": "994C234883EAEFD3F3D677E5DB79638841A59EEB9E25E21E15F706A5962770F5",
+    "Bytes": 2372
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.air_pressure.yaml",
+    "Sha256": "EF2BC4A27CBCE540D4D557C469F41D6F54A35B60EA9A972A9166F1B30556A797",
+    "Bytes": 2332
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.apparent_energy.yaml",
+    "Sha256": "5913A4CAF5B6795D98EF1A1890A75E0E4ADDDD48BEDEFC9CA022F3ADC5FB52EB",
+    "Bytes": 2367
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.apparent_power.yaml",
+    "Sha256": "EB635D80A2A5948331DB8C1314F9BE37C959710BBFDCF35DC1A8FE568C76FD05",
+    "Bytes": 2344
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.apparent_wind_direction.yaml",
+    "Sha256": "BE4AAF7583549D76B10811088FC07F798C87A33AB11CE2274E3636383E49618A",
+    "Bytes": 2306
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.apparent_wind_speed.yaml",
+    "Sha256": "E70E1D2A54D6B6E56472983E8B901E1792EB756F71DCB71C4E057135F697FA9D",
+    "Bytes": 2290
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.average_ambient_temperature_in_a_period_of_day.yaml",
+    "Sha256": "25FFF5DC863747C4E8A6CBE12D523B56C495A1E23450F327915FFE1F7B780854",
+    "Bytes": 3557
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.average_input_current.yaml",
+    "Sha256": "8A5BB229FB52341AAD5987E47181B9895E76F6EB9029C4C1B5DC2CEFBEEBFA43",
+    "Bytes": 2346
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.average_input_voltage.yaml",
+    "Sha256": "36D4136C338D75C856BFA70A177CAE60BCD529D3087607E4C5235EB4B2DE7539",
+    "Bytes": 2346
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.average_output_current.yaml",
+    "Sha256": "AE302995A76A680C58BE7BB3A4E7B9E7FC2A74196196B097FEABE714E33BF8BF",
+    "Bytes": 2523
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.average_output_voltage.yaml",
+    "Sha256": "C7692087D7A6628E8A0D40B079C7E2E09E5C929E0E66C5513E49CB6DF618E4A7",
+    "Bytes": 2514
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.building_floor.yaml",
+    "Sha256": "8697E0B1B7C008529AC1BA5E87B1DAA28772A11F05B53D3AA6D6E44550094053",
+    "Bytes": 2417
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.center_beam_intensity_at_full_power.yaml",
+    "Sha256": "5B81AF27CB41E7E6FDFB97B47DDAE3149882298E147267021D18D3103378FB9A",
+    "Bytes": 2387
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.chromaticity_tolerance.yaml",
+    "Sha256": "A75791ED0B9A356EE27EB2B86758DDEEF173BB883ABB10DAD4963ECC8BBF3D0E",
+    "Bytes": 2624
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.color_rendering_index_r9.yaml",
+    "Sha256": "3C243526317EA1FC053F9080822E249CEE7B7A8AC7421033E4E77B63E10D4AC4",
+    "Bytes": 2871
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.color_rendering_index_ra.yaml",
+    "Sha256": "7055C83572B8B0468A7A5F1463035DFF5D5721957CA4107E1E572A0626E82579",
+    "Bytes": 2742
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.desired_ambient_temperature.yaml",
+    "Sha256": "3B1ADE74DAF37EEDFF10E12FD8CB94DA6AC0943E52072E177F1A10C4991F184C",
+    "Bytes": 2353
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_appearance.yaml",
+    "Sha256": "6C083796218C3F8FE5EFEECE0F323CC4AB1D799536E624E1E83D9C59B1E37042",
+    "Bytes": 2369
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_country_of_origin.yaml",
+    "Sha256": "2C180F0DF36515E58348DA2CF7A4BF88465FE38EFF06F18CD4ED4D3D42A81493",
+    "Bytes": 2389
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_date_of_manufacture.yaml",
+    "Sha256": "1083CC70730C87902E348FC3FF238841676A6C1D646894427183DCA37BEA9D8B",
+    "Bytes": 2294
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_energy_use_since_turn_on.yaml",
+    "Sha256": "DDCEAD27080FDB899CAA88E23A0D1A1E242A4F26E73025692B9FE20B998F24A2",
+    "Bytes": 2465
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_firmware_revision.yaml",
+    "Sha256": "5AF5C4BC47577C86B4997B570071EEA73F31A97DD25BAB65042E7921006C3B3F",
+    "Bytes": 2315
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_global_trade_item_number.yaml",
+    "Sha256": "3B8D0FBB4E1CF8D60ADFA7651535769207F9FA1BD7528AF5787C24EAAE4E6AB1",
+    "Bytes": 2363
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_hardware_revision.yaml",
+    "Sha256": "223FDFDFD93A0354998518B5AE084B39531FE9490E4C84208398FB52A68CB43F",
+    "Bytes": 2316
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_manufacturer_name.yaml",
+    "Sha256": "DA8329215D3D770DAB8C1842FEFE5AFB5B09982F7A3DBB978879F42D6AA1CCE9",
+    "Bytes": 2367
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_model_number.yaml",
+    "Sha256": "4E3D1229E0DAD7D177D51ED677255EFD2382DB8ABD369FCCBC101C391B14F85B",
+    "Bytes": 2304
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_operating_temperature_range_specification.yaml",
+    "Sha256": "AEE0D96D376555A661B1D63D4DEC8A54DEEBB5C58B8C58FE153C44687B4539FB",
+    "Bytes": 2445
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_operating_temperature_statistical_values.yaml",
+    "Sha256": "3CD7FA14B214444F4A8765E1F80D57518F5D3EC6FDF099C398C0F5C83A7E371A",
+    "Bytes": 2778
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_over_temperature_event_statistics.yaml",
+    "Sha256": "6525CC89DF3AC058DA4A58B5E2300015E16E930760454A34DA33C4DBEA8A94C7",
+    "Bytes": 2600
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_power_range_specification.yaml",
+    "Sha256": "98083FFB8BFDEEF3754E33CA3848B74FCB07635D36CDF586BFF4126DB65AAF6C",
+    "Bytes": 2408
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_runtime_since_turn_on.yaml",
+    "Sha256": "04E6A824456DE410ACC88F66FADD1285735DC4B8BB4B3C65C7E8C5AC9C8CB72B",
+    "Bytes": 2413
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_runtime_warranty.yaml",
+    "Sha256": "6544B072AED27958E6BDF7EC15CEB8C736E96918C77D6D9F510F914237FE74F4",
+    "Bytes": 2297
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_serial_number.yaml",
+    "Sha256": "CBF3474A877E43820A3EDA1F80C49F80C6CEE6BA206C84A2768527A4F3CB0683",
+    "Bytes": 2309
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_software_revision.yaml",
+    "Sha256": "AD32C9D2E7AF27557E2002AAAA239AF8306E6AAB4A561469A5193C9F57F7ADED",
+    "Bytes": 2315
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.device_under_temperature_event_statistics.yaml",
+    "Sha256": "4965E0978D34CF2FC412F3E21CC4EBE7AE57A149C46B0A37E840C1D46DC744AF",
+    "Bytes": 2596
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.dew_point.yaml",
+    "Sha256": "BC36DB420CC3F0A9C58F4547F316068469EE8A4F2859090E6DCDA4EB97D5A078",
+    "Bytes": 2262
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.external_supply_voltage_frequency.yaml",
+    "Sha256": "BA3F328BD4FC30274F651C2C3DA8BC2417C14BEC67D218AC52556791AE3D7965",
+    "Bytes": 2310
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.external_supply_voltage.yaml",
+    "Sha256": "BBEB270F2906D9EC30B24307597ADFE2D736ACC8F1FBED050EE7B56E77FC39DF",
+    "Bytes": 2275
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.gust_factor.yaml",
+    "Sha256": "F02C687FC1611398F9653C56F009E7CFE3AA140970D31411EB6198DFDE18D805",
+    "Bytes": 2258
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.heat_index.yaml",
+    "Sha256": "66EBC4CB874FF7A1AEC893DE66C22435718554575066FDA2362F9EDFCAA1C05B",
+    "Bytes": 2254
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.indoor_ambient_temperature_statistical_values.yaml",
+    "Sha256": "52A4877C43C727C8DD13AEE80DC72AAFAE6BCF3DBAB82DAE839990EF0C16C127",
+    "Bytes": 2480
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.initial_cie_1931_chromaticity_coordinates.yaml",
+    "Sha256": "99D9AF013099EC5FB6DE6A31E87B811F935244406B9CDC59507F270CF9579E50",
+    "Bytes": 2766
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.initial_correlated_color_temperature.yaml",
+    "Sha256": "66DD1D561E4ED7DD03462513621D99744D0DFF05150C0D60EEF739657B4FAD68",
+    "Bytes": 2700
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.initial_luminous_flux.yaml",
+    "Sha256": "59E3ECC59A836B31958DF5F0443AC1EFE2585FC0708F77717541F73E0E372164",
+    "Bytes": 2396
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.initial_planckian_distance.yaml",
+    "Sha256": "3238F8D1F0EE623374CEC32319ADD4E5840C22E6BC8E2D199AFCEB4F3133DC68",
+    "Bytes": 2774
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_current_range_specification.yaml",
+    "Sha256": "5299388F95846C93A330B0AC7B6CF1201545ADE7E7A430AB1ED38CD81D0587A8",
+    "Bytes": 2497
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_current_statistics.yaml",
+    "Sha256": "90F1D5E00393A8208C6F328C74D155C5C3FF45359EE8FEB9E6C778E182AA85C0",
+    "Bytes": 2373
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_over_current_event_statistics.yaml",
+    "Sha256": "1B55834406B479DFEDD0BE69B544D7F0F70D26CA5129429486B99D8BBE1C2F07",
+    "Bytes": 2543
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_over_ripple_voltage_event_statistics.yaml",
+    "Sha256": "1D79A796C1F45DE4137CE8576F451005B4FF7615F3E80B093F641CD303043883",
+    "Bytes": 2568
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_over_voltage_event_statistics.yaml",
+    "Sha256": "611CB4F965C09E9BE992AC34F81470F324B2338025231A01CE1158C8DF551E90",
+    "Bytes": 2547
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_under_current_event_statistics.yaml",
+    "Sha256": "F1B1BD8C2ABB267D0101CC9B5B1E4873CF68369361AE5F6FB85B5464A1F4EB96",
+    "Bytes": 2550
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_under_voltage_event_statistics.yaml",
+    "Sha256": "3561367843C1D479A1FA8E2195D0484B34B17C1D85127AAA118D0C5702741627",
+    "Bytes": 2550
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_voltage_range_specification.yaml",
+    "Sha256": "F7308CAB7496B1417F142E9C506518006A5E4BE4C2A687DC6C72BFBCDA0EA1B0",
+    "Bytes": 2518
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_voltage_ripple_specification.yaml",
+    "Sha256": "AC056515BC279898E89F9DC7DC4F1D74725BD22519D99BE70FB75613096B81C5",
+    "Bytes": 2519
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.input_voltage_statistics.yaml",
+    "Sha256": "E500044A2F732C8560C073276F486EA57D3BFA7436F83F8DF63C03BA3BDB2D30",
+    "Bytes": 2364
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_ambient_luxlevel_on.yaml",
+    "Sha256": "D8EDC6F58EB7FD15393FED6F832A6AD092267F5BA782DA3AC8C8966B917D08C3",
+    "Bytes": 2836
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_ambient_luxlevel_prolong.yaml",
+    "Sha256": "9907A9273C1A258CE28BF4172BA383D29F3715289E6F42B6F26FBA13AB0BC23E",
+    "Bytes": 2451
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_ambient_luxlevel_standby.yaml",
+    "Sha256": "40186772B456C6C7369D126C6F00CCAFBD0CCFC8067D3DD21D5234A0109F6D0D",
+    "Bytes": 2577
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_lightness_on.yaml",
+    "Sha256": "607E087DC78FC9B83752B007EC5126247B6CD8D0A9B60DE95A64FE728944A08D",
+    "Bytes": 2327
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_lightness_prolong.yaml",
+    "Sha256": "85CFEA74958A1396D4A75AF0CDF7E3B53EDA8B7C2F504C3609A7E9F1C99C446F",
+    "Bytes": 2346
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_lightness_standby.yaml",
+    "Sha256": "5E8DCA8382CDD082F78D2171A3E5821C59E64283FF40A1A110F0291FE54F9E82",
+    "Bytes": 2356
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_regulator_accuracy.yaml",
+    "Sha256": "9B8CB86C6FECFCADE999CD0772AF24F82550C73FA3FBCE74A943C1FBF0D484B0",
+    "Bytes": 2407
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_regulator_kid.yaml",
+    "Sha256": "3307B5A38DB983BFA828FA0031A4D7A82E6A49076E1248328FEA73C33A453ED6",
+    "Bytes": 2636
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_regulator_kiu.yaml",
+    "Sha256": "FD92B229FBD7B0D124F6FA19A05608F6739E1146927DCA99DD01238AB50157D1",
+    "Bytes": 2637
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_regulator_kpd.yaml",
+    "Sha256": "64349342051C170ED26F4CFF2BCEB25320123ABB3A07552C6E914559ADECD714",
+    "Bytes": 2644
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_regulator_kpu.yaml",
+    "Sha256": "C9EB93F27E2CA1D9F17DA82BCEDAC3207560D4A64E61C222AB7252B923D0BE21",
+    "Bytes": 2645
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_fade_on.yaml",
+    "Sha256": "A9BBA53D6231A8CAB1A3FDE7E075C0A080EB34EB4C75997B4FE658C44DD7A3CE",
+    "Bytes": 2325
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_fade_standby_auto.yaml",
+    "Sha256": "127804256395BBA1A40843038B775A5E749CDD72E25EA6806187EE4D99238E95",
+    "Bytes": 2431
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_fade_standby_manual.yaml",
+    "Sha256": "8E4285AD8FEAADC6A12C4FAAA9B5082B08B34AFDA27A8672BAB6C06E73C5ACFE",
+    "Bytes": 2430
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_fade.yaml",
+    "Sha256": "CEFA183721F587A2CBBB17089B20047BC19B6F6296E0FFDE6CA1DA981F74C64C",
+    "Bytes": 2496
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_occupancy_delay.yaml",
+    "Sha256": "53E87F481CE3078E8B5BACD2CCCC248A58E5149892A3AE024EBE82041DAC1447",
+    "Bytes": 2496
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_prolong.yaml",
+    "Sha256": "1CA6A384AC3547A3DAC14E58DB9222CD48FE1A360FD12FC05DB8795D6B5316B4",
+    "Bytes": 2364
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_control_time_run_on.yaml",
+    "Sha256": "C087629CAC61A7200318195BD0F2FC59BE89F303A13B73C753A3B5F205FEC346",
+    "Bytes": 2603
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_distribution.yaml",
+    "Sha256": "8D0754D6EC2FD23E43B2D535C91452BBF29DA3E98E38B68C496A305ACC88E6CB",
+    "Bytes": 2380
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_current.yaml",
+    "Sha256": "A35E0615E61471E3C97BE186CC97529E5940FAD2ACA45BA5005FAA79A94D1CB3",
+    "Bytes": 2316
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_on_time_not_resettable.yaml",
+    "Sha256": "0A0359EED84A95A5366281C7374BD2AF1E05B6C42C5C88FB9FCF3D1BC45C169B",
+    "Bytes": 2359
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_on_time_resettable.yaml",
+    "Sha256": "9195E3A76662E7EDD88D2E2D6150573D0241EA1942E307937D0B6379BA292EA3",
+    "Bytes": 2325
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_open_circuit_statistics.yaml",
+    "Sha256": "342BE762027D0B02024CF5777C6098BF252830FDE0A193DA5EB77274C318A89F",
+    "Bytes": 2550
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_overall_failures_statistics.yaml",
+    "Sha256": "E8CB25FABBE3C8995BC265EDD45956F8E5C7B33DE7FE9B81F4E2D71DC4231488",
+    "Bytes": 2556
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_short_circuit_statistics.yaml",
+    "Sha256": "050638B20CC501F7B136BFAC495A611CF3F169B5B14E47ABF2A24594FFD13AEB",
+    "Bytes": 2554
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_start_counter_resettable.yaml",
+    "Sha256": "21A1C77DE29C4141DDA3C484E0327714D40D29A16B4FEDB8D4C23D5ED86ACA07",
+    "Bytes": 2364
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_temperature.yaml",
+    "Sha256": "5DE2924B7E45987E78CBB6A642DACAC29D6A1C60954003811067BC1C51B03A2C",
+    "Bytes": 2271
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_thermal_derating_statistics.yaml",
+    "Sha256": "D02FBF02218CB6B2C995910D253A5ADC22B61128BFAB495BC56F5F5AF485645C",
+    "Bytes": 2561
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_thermal_shutdown_statistics.yaml",
+    "Sha256": "9BD3CF62B848B3346C9982B89E881EB15100D953B95491D99216CF0CABE26269",
+    "Bytes": 2582
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_total_power_on_cycles.yaml",
+    "Sha256": "21D6B304C712AF928B2C4A7F3A92A29AA09A8F4A2A7CC11C68D27A512ECC8C78",
+    "Bytes": 2404
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_type.yaml",
+    "Sha256": "690EECE0923A6E92CE512C1208D8BDD22A2F8BB8BF8A44CE1921BD960A558887",
+    "Bytes": 2585
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.light_source_voltage.yaml",
+    "Sha256": "52AFA06DAD9EED7A9A690CA5669E0C0232C587459359AD434E26205039E40A84",
+    "Bytes": 2322
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.local_asset_identifier.yaml",
+    "Sha256": "D34216B655D8B3F7907D1FF641976FE1E75BF6606D61F2C3E9CF7E19CB46C59C",
+    "Bytes": 2678
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.local_asset_name.yaml",
+    "Sha256": "E5852B5B93FDA7FACA6F52D3B5A3525FDFF939B230A361F30306C2FC7055FCEA",
+    "Bytes": 2829
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.lumen_maintenance_factor.yaml",
+    "Sha256": "0A86F88408F304771B0F732D4AEE48980090DF78D427DBE642BD00246D80989B",
+    "Bytes": 2558
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_color.yaml",
+    "Sha256": "254547A4907430B6BB81E6DACA2815CA0629B732C6738F39E4B9ADED70C5BE4B",
+    "Bytes": 2436
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_identification_number.yaml",
+    "Sha256": "C679A5DD09E2D51FCE7F27FAAB905DC5213D2C493700B74C42D79D7A21AD7D93",
+    "Bytes": 2292
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_identification_string.yaml",
+    "Sha256": "B66F1BAF5053041872BCB8A935352003536A5DA96A2E23A278D138348F4663EF",
+    "Bytes": 2292
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_manufacturer_gtin.yaml",
+    "Sha256": "23FE561913FE8D0C0AF78DF6E17745E6D73EDEEC7879D515D98EC1D69C56B817",
+    "Bytes": 2316
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_nominal_input_power.yaml",
+    "Sha256": "8D614E1DEF46EB529621140F72B07A09E8982A2AF846FF4DDA3C1F396B75EE79",
+    "Bytes": 2276
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_nominal_maximum_ac_mains_voltage.yaml",
+    "Sha256": "91DC712DC018465E809B11E57A2AA73E62FE6E6D6408EEB144580B40C47DF0DF",
+    "Bytes": 2317
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_nominal_minimum_ac_mains_voltage.yaml",
+    "Sha256": "B427BEC00C38348814BE37BAAF4B55F13674C0D384EE08F1E0DCE2ECDCC7E052",
+    "Bytes": 2317
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_power_at_minimum_dim_level.yaml",
+    "Sha256": "4BF548E7C0B7117B21F6AAF338367AB953EBC6756D29AF76F15F334AF8B9279B",
+    "Bytes": 2301
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminaire_time_of_manufacture.yaml",
+    "Sha256": "24AF6FB829098EE158F1A7DCF918AB07911C1542323C746FF2ABBBE8BEDAE793",
+    "Bytes": 2279
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminous_efficacy.yaml",
+    "Sha256": "ABF0A4AED0D0E8B03E746A5884F8F042C1AAD45E30896B77A9BD95F8201F9B9F",
+    "Bytes": 2536
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminous_energy_since_turn_on.yaml",
+    "Sha256": "9E589F4FC373B7CF1679C7BF02778D7CA901A1AEC02993DABEC8CE22B9CEA6CD",
+    "Bytes": 2343
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminous_exposure.yaml",
+    "Sha256": "37341C5EAEEB3A082149D57CA7EDAA1E0DFEFE08EDE51FEE6DCBF0EFB4594527",
+    "Bytes": 2482
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.luminous_flux_range.yaml",
+    "Sha256": "DEC7115999B2F3A31345001A9B11028569AA7C0F6E9C2B9227EECD9AC0FD2AD5",
+    "Bytes": 2461
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.magnetic_declination.yaml",
+    "Sha256": "2A8CB2528DCD0035B60437633306626D5ED8552729BED38B83084C8AB8ABF3AF",
+    "Bytes": 2294
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.magnetic_flux_density_2d.yaml",
+    "Sha256": "ABF4AF1FEFB379D3D299E75E44FC5A19646023747A5E1C1530294E17DBEAC932",
+    "Bytes": 2362
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.magnetic_flux_density_3d.yaml",
+    "Sha256": "272713F0027365FB0B66DA299ABFA709F4E8B3025BC7D2A938D7F70F871A6C79",
+    "Bytes": 2370
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.motion_sensed.yaml",
+    "Sha256": "EB7B164194C637217CC2E9B25CDF566F7DA0DBCC7CFFBC739FB47EB8CFC840FD",
+    "Bytes": 2506
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.motion_threshold_steps.yaml",
+    "Sha256": "82BDC9FAE19BA55FCF448DFACEF0DABA9B8E11880A51415E6206E3F1C5180CBE",
+    "Bytes": 3193
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.motion_threshold.yaml",
+    "Sha256": "CBAD03961625ECE8E163896815E4D09618B375D38A6E2D58913E03F14DACEE96",
+    "Bytes": 2880
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.nominal_light_output.yaml",
+    "Sha256": "398562920847EB87785E1383B3D650AF116B8AF6DCBBB09B140333407BC57BEC",
+    "Bytes": 2275
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.open_circuit_event_statistics.yaml",
+    "Sha256": "5671808AD36B7F82CE79C22BAC5CA0128612477A39459D6B07359D2023BBC53E",
+    "Bytes": 2709
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.outdoor_statistical_values.yaml",
+    "Sha256": "7DD842B5CB0C2DC6C4E30006FD68B6407DC3CD0F955D733AE61F44DAF3DCE709",
+    "Bytes": 2440
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_current_percent.yaml",
+    "Sha256": "04FED6D6DF1C320A239117D0722891C7E03F7B13E748C248EF2A159A8153CE6D",
+    "Bytes": 2545
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_current_range.yaml",
+    "Sha256": "EA2759725187840640F09BCE3BA3FC2BF77B2C91AB1F8145B2A4DE72B3B4D5A2",
+    "Bytes": 2494
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_current_statistics.yaml",
+    "Sha256": "14119589D88E8DF961B27F45B2D82F4E8E9FEEB89BF16736188EB998E7CE0740",
+    "Bytes": 2962
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_power_limitation.yaml",
+    "Sha256": "0DB8AF6A86137EFDFC9B9DA3B3FAAB939F4DA12AAE4309230B67F8EBE045BB7D",
+    "Bytes": 2630
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_ripple_voltage_specification.yaml",
+    "Sha256": "F5D8022E7A98E0F9207E133D5480321F8196946C8E9714F8BCCBFB8308C95F59",
+    "Bytes": 2521
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_voltage_range.yaml",
+    "Sha256": "614F672F13D1E01AD72F868F2AF2F2C40A6E8FF3A70075C18810BA3E7FDABDD8",
+    "Bytes": 2309
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.output_voltage_statistics.yaml",
+    "Sha256": "273BE572300F64E2A39D840405EC1F4958775AC1CAFF37CBAA6111008DCFC933",
+    "Bytes": 2929
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.over_output_ripple_voltage_event_statistics.yaml",
+    "Sha256": "BDF809384DFFA2FBDC9C5713CA88366BA76661CCAD687B8CB0FB466388E80BB0",
+    "Bytes": 2793
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.overall_failure_condition.yaml",
+    "Sha256": "83EFAF54C942CF70CB22FE7857D6A4AFDCF68E6E34AFF6306AF51497AE43424A",
+    "Bytes": 2496
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.people_count.yaml",
+    "Sha256": "BCFDA8E94417AE2473C595FF64A9A42F91C53D3534F29A267BC2E69DD710AB20",
+    "Bytes": 2385
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.pollen_concentration.yaml",
+    "Sha256": "D8E56E422459E0F404AA83B12F48F4B97A2E5C505AA4D1DC356E75F794635C90",
+    "Bytes": 2294
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.power_factor.yaml",
+    "Sha256": "53DFD9FF556ED6D0365E3E8C820A9D2C9F51EDC846E4BC572936C5B8B820354D",
+    "Bytes": 2480
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.precise_present_ambient_temperature.yaml",
+    "Sha256": "4F237F6102D81CC8BCC88AF0B08391C07D64F1BC591443C74F8DB0C185A5780F",
+    "Bytes": 2400
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.precise_total_device_energy_use.yaml",
+    "Sha256": "DAFB51AACD9EC466032B410ABF864B1FC26071FDAACB8C73E7D83126D420FDD4",
+    "Bytes": 2310
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.presence_detected.yaml",
+    "Sha256": "DD7C1A185FE0A0B8BCE8D12D59BBA4EFB8C9AC5993BA9E84B05FCBB4EDCCBFE5",
+    "Bytes": 2298
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_carbon_dioxide_concentration.yaml",
+    "Sha256": "5CECD240A0FDD020CBC8540FB9CA75D52ECE035C29BDE24E1D8497A5D0CA45E3",
+    "Bytes": 2378
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_light_level.yaml",
+    "Sha256": "D9F58D1D5D2AA9C893591149B25909478E9F95D6EA1AC14F3CC4778E89EB0BE3",
+    "Bytes": 2319
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_noise.yaml",
+    "Sha256": "108D8AC9787BEF1D680E951A4B072EEF179070EE887FB2361FA05F267902B901",
+    "Bytes": 2295
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_relative_humidity.yaml",
+    "Sha256": "5153DEBC531AFBEE3EF70A55AB5917BBF897C06E226F993A5123C7FE14264A13",
+    "Bytes": 2309
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_temperature.yaml",
+    "Sha256": "4D522F6217AE63260F4498D5E9F9F1CA0D379053345B90894E7618BA36AB94F8",
+    "Bytes": 2337
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_ambient_volatile_organic_compounds_concentration.yaml",
+    "Sha256": "903A8A4AAEDCB4FA45E40A8A35A49CA0C03706C1A4DE29F333D2B0E1876AFB59",
+    "Bytes": 2398
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_cie_1931_chromaticity_coordinates.yaml",
+    "Sha256": "EFCFCCD9880604024B1A5EF94E0083A33D6A7B0EBF12B4BEB67C247D763746EF",
+    "Bytes": 2656
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_correlated_color_temperature.yaml",
+    "Sha256": "CFE359104D32B94BAE16ADB61D45A046383BC45409D652C69F1D67A6FBAD1E5A",
+    "Bytes": 2631
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_device_input_power.yaml",
+    "Sha256": "641150A6B9BB525D80ED81C341A94A7BDB0EA7F236E640751555CB0020C90A9F",
+    "Bytes": 2444
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_device_operating_efficiency.yaml",
+    "Sha256": "05520AF0145C01E14F4507360DBBD03ACEC8A3657317B68EF9B1A54C6F698581",
+    "Bytes": 2740
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_device_operating_temperature.yaml",
+    "Sha256": "41B3292683590A8C28B6E831E9D1E5301D2F0E08309A62600A07155C37AF09C2",
+    "Bytes": 2347
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_illuminance.yaml",
+    "Sha256": "603BFC316EC71EEEA0B508B8C832A064A8C94299E8E88279EA66C8C3301C6256",
+    "Bytes": 2272
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_indoor_ambient_temperature.yaml",
+    "Sha256": "0D8C0D0B9FC480CD9A0F7851C83398FCEC164FFE6372C1135CEFF77E869A1532",
+    "Bytes": 2429
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_indoor_relative_humidity.yaml",
+    "Sha256": "2DB9F4216AC17D2B8135535A8517038FD88ACC81302DBE7A13B5210D3CB837F7",
+    "Bytes": 2479
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_input_current.yaml",
+    "Sha256": "6F644DE5FF377418F7F6E5B3E90BC9F9049929E84B2EEFAC2E09963BFC14B860",
+    "Bytes": 2277
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_input_ripple_voltage.yaml",
+    "Sha256": "9A356C42E2C41743E3987D3F0E557D5C20CCA4A1F07B13E69A404297938828F0",
+    "Bytes": 2689
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_input_voltage.yaml",
+    "Sha256": "9188DFFBD4D8EF17CE281A0A4F847BFDDBC7AB262464A801F4F6AB78E47CDB80",
+    "Bytes": 2268
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_luminous_flux.yaml",
+    "Sha256": "5F6EC4DABE66ACAEA6163B605A063640A862AE8182DAA7939800672BA8B228A0",
+    "Bytes": 2275
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_outdoor_ambient_temperature.yaml",
+    "Sha256": "CEAC44D2835D4C2DFDC8BA691784952D148C2A0ECABFBDE53454D30453ADBD70",
+    "Bytes": 2442
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_outdoor_relative_humidity.yaml",
+    "Sha256": "876C2F2178C0C5C076B842A4C80736098108916DE200B98E06581D7B7AD0824F",
+    "Bytes": 2482
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_output_current.yaml",
+    "Sha256": "935CA255F9935F8E6BC4360966B09D793AC209F3E50B3940F343EB05EE79A7EF",
+    "Bytes": 2291
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_output_voltage.yaml",
+    "Sha256": "23173D0F4B6A6F716B12745E8D7ACD4A51CB910CFA289497F9623B545CE71D5A",
+    "Bytes": 2287
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_planckian_distance.yaml",
+    "Sha256": "44B22F79A02766C43DFAC47797DD4F4EDF0B3FA492BC9E8727FFC2819C5CD19D",
+    "Bytes": 2682
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.present_relative_output_ripple_voltage.yaml",
+    "Sha256": "0A2B0210A71411185A10F4BF71F30F4CA6AED217B762AB0DDD5622810A86F50E",
+    "Bytes": 2800
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.pressure.yaml",
+    "Sha256": "A3F1A525251CE87A89BA670CD2413436820047EE6E7D815F551E972A50826AC6",
+    "Bytes": 2353
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.rainfall.yaml",
+    "Sha256": "BF902204432BE922956238F60AE252D86D333D97E0254DEABA33BE8A5479A2B0",
+    "Bytes": 2249
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.rated_median_useful_life_of_luminaire.yaml",
+    "Sha256": "3E622F26724D708A3D067AAA8D528B0A31B5B29876A9FE49B079E8148D3E8331",
+    "Bytes": 2393
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.rated_median_useful_light_source_starts.yaml",
+    "Sha256": "749F8AEFCFCBE32BE2F53373EB71BF79749684FF27D4618188F81EDE7CCB7AD7",
+    "Bytes": 2423
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.reference_temperature.yaml",
+    "Sha256": "28A48D78FCC1F8FAD63978BFBF1A2011AC1C36AF7291C3E38CD7482635FCF82E",
+    "Bytes": 2437
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_device_energy_use_in_a_period_of_day.yaml",
+    "Sha256": "60EC0559CBA6A2C2524E5AF05B259A03833927D16F5DC884A0631FD3610AC5A7",
+    "Bytes": 3600
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_device_runtime_in_a_generic_level_range.yaml",
+    "Sha256": "B06E83454BD5E92AA632CDC4C5B17EAC656AC7F045754922494B1587119E0707",
+    "Bytes": 3212
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_exposure_time_in_an_illuminance_range.yaml",
+    "Sha256": "ECCD2D44E434E26D1281E6F0509D66AD6C284C8F9D4AE512BDA5635A6BD710BC",
+    "Bytes": 3378
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_runtime_in_a_correlated_color_temperature_range.yaml",
+    "Sha256": "3935999E61D88ABDE805C86A355B2192D71E0E0A74C617FE44AD722DB8888683",
+    "Bytes": 3570
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_runtime_in_a_device_operating_temperature_range.yaml",
+    "Sha256": "6922DBD5EC05CAC929749ADD8C95F156186B674FF9AEB91B52F51EC13F1ED29A",
+    "Bytes": 3445
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_runtime_in_an_input_current_range.yaml",
+    "Sha256": "2BC02CC98A4BB10FBD5BC54D36110399348B854723092D6CBB758461E3A7D6C7",
+    "Bytes": 3086
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.relative_runtime_in_an_input_voltage_range.yaml",
+    "Sha256": "46A915D90F8BC3D8A2AD9B7D90F6D2BF3C38C8C76B298BCFC0D2F89C60D3C5E1",
+    "Bytes": 3076
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.sensor_gain.yaml",
+    "Sha256": "0A887BAB220A39A2EF476AF3808103BDAB31FA6D5F264B8B424BDC1567CACDBD",
+    "Bytes": 2517
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.short_circuit_event_statistics.yaml",
+    "Sha256": "853CC956E7ED8F5C3385ABA900D8E82AE0B1B08B33A8897A938CA67F39BDFA53",
+    "Bytes": 2715
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.spatial_unit_category.yaml",
+    "Sha256": "B40F5651F6D85DF83CB3BC27F9D65985794CCC531F81E25A1FCF9B57433676CE",
+    "Bytes": 2550
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.spatial_unit_name.yaml",
+    "Sha256": "87C4B3E7AC46754EB492DBECC88F33652CB75BC282F320B43572F6F3CF2E5761",
+    "Bytes": 2634
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.thermal_derating.yaml",
+    "Sha256": "B38F5A25DF159CC7C6488D6E039583E791598C202074CC5F622412EA080F6459",
+    "Bytes": 2593
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.time_since_motion_sensed.yaml",
+    "Sha256": "C2162BFE869BA56916B49517494CF513A062EA187D9C6B88C563D3F82E4BFEEB",
+    "Bytes": 2550
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.time_since_presence_detected.yaml",
+    "Sha256": "AE85609658B34064C82D6B6AEB631BA6B89BDDCA50F46A67BE9E291D85BD19A6",
+    "Bytes": 2408
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_energy_use.yaml",
+    "Sha256": "3ED493685763ED6CAB1B1055260DA666DCED7DCA53DCAB9081F10B313F64D394",
+    "Bytes": 2407
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_off_on_cycles.yaml",
+    "Sha256": "049C29E6287892E353FE26B0730131E64BDD3C716CAD669A8306108E5E25C1C8",
+    "Bytes": 2336
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_power_on_cycles.yaml",
+    "Sha256": "2BAEED4E96A0BB4E5C4045090569F3FD7578DEEC6D62EB8E501F1BCD111B90E8",
+    "Bytes": 2307
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_power_on_time.yaml",
+    "Sha256": "9E06022FBC45B0B1019F5EA7A56F5533A9C0153963CF81060E082AAC61A8052D",
+    "Bytes": 2373
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_runtime.yaml",
+    "Sha256": "9F9DBC21DE9FD083DA1A40936004BF3FD6D7B5CB052C671E1B6CC78D79AC4F5B",
+    "Bytes": 2319
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_device_starts.yaml",
+    "Sha256": "4F12F8FC61A71FE559A02EF7BC3C8E6CF3974C2E2B714C869BDBA3681FE45C18",
+    "Bytes": 2379
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_light_exposure_time.yaml",
+    "Sha256": "F48AC7EB248FEF0DE3D7BCE777D8C2911C0AACDD119288041B20AAA5A768526A",
+    "Bytes": 2324
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.total_luminous_energy.yaml",
+    "Sha256": "C6429C461349F649130B1F90001D6992D0041B1325A24E7EA388DA110A87822D",
+    "Bytes": 2319
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.true_wind_direction.yaml",
+    "Sha256": "FCB8CF2DCEDA3194603E894D696EBEC76726B273F6AE13BC0B4A1695F9A94114",
+    "Bytes": 2290
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.true_wind_speed.yaml",
+    "Sha256": "A918C78F129FEA7A8A3385A87EF28DA2ECF07F2A9365208BF005B0335B0EB02C",
+    "Bytes": 2274
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.uv_index.yaml",
+    "Sha256": "D6DD857EF16705B555AD3BA62EF96BB351FA8916BF969A1B71EBB4EFB4F3036F",
+    "Bytes": 2246
+  },
+  {
+    "Path": "bluetooth-SIG/dp/properties/org.bluetooth.property.wind_chill.yaml",
+    "Sha256": "2CFD4E853F0889A7A35517A783CDD5A756FEAB3D9F2BFA54D4F9D56DE4178ECC",
+    "Bytes": 2261
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.acceleration.yaml",
+    "Sha256": "01627A17FBB070DF10FC91CC105FB14CCFCEE17E4F290608A3440063E06FF5B8",
+    "Bytes": 2679
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.activity_goal.yaml",
+    "Sha256": "4895A30D307BA5A039A619648D24E41B61806D088D8097BD469E32F86C4FE769",
+    "Bytes": 5371
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.aerobic_heart_rate_lower_limit.yaml",
+    "Sha256": "DA287CB3D1C064F472215A71957C6FD3C03929B7D34503EC7DCE4263E3E4A57E",
+    "Bytes": 2601
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.aerobic_heart_rate_upper_limit.yaml",
+    "Sha256": "749515F1E255F35C72A6CCC287079A24C0AC606201BB9E6EAFFB24876201D277",
+    "Bytes": 2601
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.aerobic_threshold.yaml",
+    "Sha256": "185A808FF56CD5279C95B45B3A276C4F031652BA16D0CAE18C6D63552EAA2C48",
+    "Bytes": 2783
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.age.yaml",
+    "Sha256": "D469F3202CF72B48738450CAE769632194FE9D037149175A8AE3FDB0844E48D1",
+    "Bytes": 2329
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.alert_category_id_bit_mask.yaml",
+    "Sha256": "4817877CECDA62D68ACEB6F916B951ECA73CCF5A505CD67BA97A57D4C80EEE52",
+    "Bytes": 3469
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.alert_category_id.yaml",
+    "Sha256": "88DA251F97AA51708FFC6F2B67F6D73FAEB2719A5848E5345F824C559D4320B8",
+    "Bytes": 3295
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.alert_level.yaml",
+    "Sha256": "BF80971FF1194B69A392D2E01F10CA0B8960DB5FE96070B9F9351CAC64425183",
+    "Bytes": 2453
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.alert_notification_control_point.yaml",
+    "Sha256": "C787B35834FD394339C9BAD41101D2A876DAC7368F0936B0D20FEB6CA9C08ABF",
+    "Bytes": 3043
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.alert_status.yaml",
+    "Sha256": "B2B1E1291B55FEB7C90012667BC05BC5128200FF125EF2612DCBFF4108CFB918",
+    "Bytes": 3190
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ammonia_concentration.yaml",
+    "Sha256": "F550C35432F1D7EB2A57E521521B09BF65FAD4453C7F807374CB9F0E2DFAB2B8",
+    "Bytes": 2859
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.anaerobic_heart_rate_lower_limit.yaml",
+    "Sha256": "FD0650C66AB88ECA83EF4AA406120E5B2D685650DEA11440C247771109A16059",
+    "Bytes": 2554
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.anaerobic_heart_rate_upper_limit.yaml",
+    "Sha256": "3AA6E628D9EB6BA73B9E46C01C481C6DC35C0028185576966263FC9380B725C4",
+    "Bytes": 2554
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.anaerobic_threshold.yaml",
+    "Sha256": "1A4D70A3C32928D046E92DB530855B8E863AE9E28258A113FFACBB9F97AA3FFB",
+    "Bytes": 2732
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.apparent_energy_32.yaml",
+    "Sha256": "4D39587F890177D629DFFFF6D7C5F8AB98607DF1B680A7C3EC746B4EFA245D6F",
+    "Bytes": 2778
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.apparent_power.yaml",
+    "Sha256": "25D3E17B3AC457752E4C7BEC53D6D81392EB2A2A716DC98EBC9AD711297BF15E",
+    "Bytes": 2736
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.apparent_wind_direction.yaml",
+    "Sha256": "30C59828CCB087B878086CF40630AAE1C0820C56CCB166227480CDEE735D4788",
+    "Bytes": 3231
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.apparent_wind_speed.yaml",
+    "Sha256": "AC91D9F1FA65851A6C3AA26D5AC03B31FB63205A17B2A83942038BB846FCA10D",
+    "Bytes": 2691
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.average_current.yaml",
+    "Sha256": "7E2DD9FEF602585C03C30965C5C50BF944F816568287E8A0982792439F2DDF00",
+    "Bytes": 2687
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.average_voltage.yaml",
+    "Sha256": "C79FFEAE0383A3489AC1DEDC0A31D94F19D4CF9616CFB025534FD6A29B2EC2D9",
+    "Bytes": 2651
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.barometric_pressure_trend.yaml",
+    "Sha256": "FD279A18AB5B5A3CEC10BA045432C57D4B6E59EE1C116B8AF8DAB834402F35A6",
+    "Bytes": 3387
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_critical_status.yaml",
+    "Sha256": "FA17A5596DEA2BD8F49D154A535B65F0CC616E25F1D1E369872E480A889D9B66",
+    "Bytes": 2867
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_energy_status.yaml",
+    "Sha256": "D52D78FE0A1C4B55A03F16E761BAB1327CA3DFB013AF04DC812BB71186E07AE4",
+    "Bytes": 5291
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_health_information.yaml",
+    "Sha256": "C98762ABDBC6BE2F280E6F140D7B6E52239652567DF04C5D3E1D35700616C8CE",
+    "Bytes": 4099
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_health_status.yaml",
+    "Sha256": "73029A839F947814070DC79B5379733EB86799DD74E9F90CCE5ACF5D93BCBBB3",
+    "Bytes": 4510
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_information.yaml",
+    "Sha256": "D8853DF009DDAA433A3A385AB933820129B998D0C5F0BCE71F6D5AA86498280B",
+    "Bytes": 7990
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_level_status.yaml",
+    "Sha256": "8BA34283F2F5460D2A9EB6704B74EA99887F8CAF49A412537880B9837DF08C92",
+    "Bytes": 5933
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_level.yaml",
+    "Sha256": "711027DA1F0A721FAEC6B619327E9968C976B8BDDF7CF103B70135ED5853618E",
+    "Bytes": 2561
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.battery_time_status.yaml",
+    "Sha256": "59D37BAFCD08292335E878066DFDE023273971D0BBD36EA1D239855352D43570",
+    "Bytes": 3893
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.blood_pressure_feature.yaml",
+    "Sha256": "0E48026EF72DF7F34BAB3759FCE5A1AE28191625B91478B969429A5A7F9EAE9C",
+    "Bytes": 4469
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.blood_pressure_measurement.yaml",
+    "Sha256": "1666A09A1225DB831EAAE49B07652FCFFD3CDD37F1C17E43BB750B2BCAC5FA70",
+    "Bytes": 7640
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.blood_pressure_record.yaml",
+    "Sha256": "710BC19A2EF2E33E5888A9F894FA3E5A183846BB1261AC4ECAA4187694AE0CC0",
+    "Bytes": 5876
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.body_composition_feature.yaml",
+    "Sha256": "A6DB8D7D882625A0C76527C8C84F5EDED320F2B67D5942D20E0F4B3229195E72",
+    "Bytes": 4383
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.body_composition_measurement.yaml",
+    "Sha256": "8A289EBB8D38E08F9BAEBE15B92EBF76A88F88FA3A98FCEDB33482DD6976A2E4",
+    "Bytes": 8090
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.body_sensor_location.yaml",
+    "Sha256": "0EF818322341FC9BA38F89E4208A01E34845B37302116E822D3DFA52F7A0FE58",
+    "Bytes": 3067
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.boolean.yaml",
+    "Sha256": "DDB9C01F207DB18F51F4CD26E3F320341E83852DC53C22EAA01F78A8891E29CE",
+    "Bytes": 2668
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.caloric_intake.yaml",
+    "Sha256": "CE159778770DE8825A47B23C68ABA693014F333C29F6221D2890E696364743F2",
+    "Bytes": 2407
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.carbon_monoxide_concentration.yaml",
+    "Sha256": "D67998964751226B67712CE756BF038EA13DB79609A5BCB65192D79D3EA54882",
+    "Bytes": 2882
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_feature.yaml",
+    "Sha256": "8F52A1EA0B2DC88C1990D606E728E8DC148EBC49BCF524631A9EF12AEDB8FF5F",
+    "Bytes": 6895
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_measurement.yaml",
+    "Sha256": "F2B025C28157EC1119F4F869C37FF7C5E2C2FF6FB952AA93D136FD8F93F90148",
+    "Bytes": 9763
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_session_run_time.yaml",
+    "Sha256": "E8001C4559ECAD03A232FB475868FD261BF9C11F5151053CD714EDF100CF97E4",
+    "Bytes": 2777
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_session_start_time.yaml",
+    "Sha256": "57A768A47D3E79FC7A1D3E70A4485FAE2C15EC640133D0E83D71D48073CFADF2",
+    "Bytes": 3114
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_specific_ops_control_point.yaml",
+    "Sha256": "A0B7CAB1E96F18840E94F6D47E6D5CB9C50FE45673FC2D81A1E4CA25F6A76C81",
+    "Bytes": 14800
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cgm_status.yaml",
+    "Sha256": "9BAF59EFCC594276A9EF4851A22AE1FB036E63E08F2BEAEC0F2E057B8BA941CC",
+    "Bytes": 3146
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.chromatic_distance_from_planckian.yaml",
+    "Sha256": "225D19CCABC717CCF53FAB1D5FD251521BD1EF169311542EB9CC6C35D837DBC6",
+    "Bytes": 3048
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.chromaticity_coordinate.yaml",
+    "Sha256": "F628E0D9EC1917543E3B5E961D77212B7997800D8668D379CBD1413CD6BAD2C0",
+    "Bytes": 2593
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.chromaticity_coordinates.yaml",
+    "Sha256": "F9A33BBAE169E1BB90C842217B43AD323E65ADA9C3940B0FA0B265CE0B7618DB",
+    "Bytes": 2727
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.chromaticity_in_cct_and_duv_values.yaml",
+    "Sha256": "6422173646DDA588FAA6E5D32E6D0CA2A07D18230CD34EFF7796A5B0BC7E1CD5",
+    "Bytes": 2899
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.chromaticity_tolerance.yaml",
+    "Sha256": "DEE0F13553EF90BC9366BAEEFBFA4D4B9F59BF302E9F13EB2F372ACBCEC8906F",
+    "Bytes": 2761
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cie_13.3-1995_color_rendering_index.yaml",
+    "Sha256": "F42FC4A6B07CBB05F303D7AF0BFB986DDF90DDF57BA93D1E34FED0A9B0C8BEA1",
+    "Bytes": 2643
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.co2_concentration.yaml",
+    "Sha256": "94D69F7D1A988D8041C800C658878BD2DF076BC5CDBE74AA34431265BDF47EDA",
+    "Bytes": 2741
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.coefficient.yaml",
+    "Sha256": "C2661001192E5C30E6B13DBA51E41D494DB21CF0D48C7EEBB46D53CBDB26299B",
+    "Bytes": 2354
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.content_control_id.yaml",
+    "Sha256": "CC8D11E4CD52D2D825A51A03236D110D50B156D4BB0C61233433B52EC44B794C",
+    "Bytes": 2724
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.correlated_color_temperature.yaml",
+    "Sha256": "D9E46F8FEB7E9496406A5346C50FEC24B0D93E2C54B0B913C1974131CDE1C078",
+    "Bytes": 2628
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cosine_of_the_angle.yaml",
+    "Sha256": "69B5357D2730879A277CCEB94110997FA3BCECA9D510A0E282D2193CF358B988",
+    "Bytes": 2694
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.count_16.yaml",
+    "Sha256": "05011AB155A50C15835E318B93313AC3729C6470A12EE34C04247AC060B523BA",
+    "Bytes": 2520
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.count_24.yaml",
+    "Sha256": "621708E7A9939F68DCBFD17F8242D6531029AFF45EB98F1DB6E784C9819580C5",
+    "Bytes": 2525
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.country_code.yaml",
+    "Sha256": "B10C895A469546A7ED0FA10376D23C00BF096ECEDC18E6D499A7E74CF2BB7DD6",
+    "Bytes": 2616
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cross_trainer_data.yaml",
+    "Sha256": "F142E38B66CA5B39D33E922F2B7193BBD438249E08E1447B4FA91D081AEDE08F",
+    "Bytes": 10736
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.csc_feature.yaml",
+    "Sha256": "CB81AE959D2E0DDE546521B633F23AAC1B71F0DC28A8C1848DE35747FAB0520B",
+    "Bytes": 2872
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.csc_measurement.yaml",
+    "Sha256": "D74C321AE0AAE420F085A7DC9EB1103D1EBA9F46DAEFCFBB68539B7EBD845B05",
+    "Bytes": 4345
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.current_time.yaml",
+    "Sha256": "6D2B58ABDF0FEA4557940F2A18D8F4EEFBA079A2FF7F51D7B01AC6D1C9B6D5C2",
+    "Bytes": 2787
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cycling_power_control_point.yaml",
+    "Sha256": "7DDFE532063F3CF6EDFE898FAF26791CBCE9D6C9D7F63DD5C80EC0C7E352D3CA",
+    "Bytes": 12113
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cycling_power_feature.yaml",
+    "Sha256": "3B87AFE5B01EB6D1E7DB9160F2E1501BC37D71B9873D67ABA8F658F6CFD70985",
+    "Bytes": 4662
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cycling_power_measurement.yaml",
+    "Sha256": "A7A91B32AF92940F0B7DAF74663BFE76BAB439521261832F84AEFD2684A268AB",
+    "Bytes": 11109
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.cycling_power_vector.yaml",
+    "Sha256": "6C4F7F99F6E8EBDCE0F025A556621019A476747675C37B4FBD2F3DD5F9DDBD28",
+    "Bytes": 5565
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.database_change_increment.yaml",
+    "Sha256": "131D1B0A7A93260CDEF74BC66A3BE147099E58E17F2755011E43CF1659A302F2",
+    "Bytes": 2668
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.date_of_birth.yaml",
+    "Sha256": "F1710FD61407CEB5C647B09EBED4BF303DF36A5496FEB3DA4C431BCA73AFB28D",
+    "Bytes": 3967
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.date_of_threshold_assessment.yaml",
+    "Sha256": "EFD4D2F51CA4C914A8A18DCE3E3B5C42E47BE5D1ED0AFDB46C801FFBBF8D6760",
+    "Bytes": 4050
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.date_time.yaml",
+    "Sha256": "FB8CC90940033F876C3AE0374440F4464B60ABFB36E01A5F68F6D044FFA89773",
+    "Bytes": 3549
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.date_utc.yaml",
+    "Sha256": "8DF818DA21CABD38B628AA1293BF4C7D8100DF37685924D05D27CAA37F8FFD40",
+    "Bytes": 2647
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.day_date_time.yaml",
+    "Sha256": "0846D988EA829FA873DE6668C83969FBB448AC1A2AB2A2E79FE83911C0A6A57C",
+    "Bytes": 2610
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.day_of_week.yaml",
+    "Sha256": "32604DFF88331E2DC6AD7746B1D9B62D06CAB709279EC76A08E52092F7ED3B4F",
+    "Bytes": 2587
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.device_wearing_position.yaml",
+    "Sha256": "D033244490D8EC8509B5EE75F75077E282CCFCBC69459C7FC45C1786D3785341",
+    "Bytes": 5472
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.dew_point.yaml",
+    "Sha256": "0CB5A70021D3418F5ABF7054D2876E9BEA2903BD900FD30EE258739723CE4678",
+    "Bytes": 2519
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.dst_offset.yaml",
+    "Sha256": "BAD395184B158D1B9730B1059098E97EDC9DC1A3A2901A8605AD933667C7AC36",
+    "Bytes": 2590
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.elapsed_time.yaml",
+    "Sha256": "21415C314E5E21790A333B59FD44DAA67A77CB18886AA4705A4CE0E18FEED10F",
+    "Bytes": 5356
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.electric_current_range.yaml",
+    "Sha256": "49C77C1D5DE0123BCB4053C2A30DA516F170CE466398B0FB12DB2F45F469EC73",
+    "Bytes": 2712
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.electric_current_specification.yaml",
+    "Sha256": "2CE370891AADD1B2179DE2F4C9E140EE92FC2030FF3A325F764D3518205D5A04",
+    "Bytes": 2956
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.electric_current_statistics.yaml",
+    "Sha256": "F3FC4185A2CBF3FE158F54D3EDABDE51BEB525D6BF0FD68F27D1F3EF1C64317E",
+    "Bytes": 3368
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.electric_current.yaml",
+    "Sha256": "57B3678F3B1D5F5C38D83A4E22FB27A1A393E33B66379493BE58737578A1AFAD",
+    "Bytes": 2605
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.elevation.yaml",
+    "Sha256": "C4E3A5CDCFE1B8E5D4FD2E76B27CA5683E0D9D80D60DE5844C5CC2E76EEDA0B8",
+    "Bytes": 2556
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.email_address.yaml",
+    "Sha256": "41D7D3E921AD39DF3E9B2AA085C9F891C3010A89710C45DF11E4C852D13ED440",
+    "Bytes": 2360
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.energy_32.yaml",
+    "Sha256": "7186B06E058DB273ACF38A3F4C73AF36D2D5C05BC68924C64AB800B66BBEABDE",
+    "Bytes": 2672
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.energy_in_a_period_of_day.yaml",
+    "Sha256": "D1F2D78DBF8DDB22C7CCCDB263051A3430692C6A71FC7CEC53DD6F2DE0A21A26",
+    "Bytes": 2844
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.energy.yaml",
+    "Sha256": "2CCDEE0B4E92B487F6C4DDE6EE98F85109ABE3B73921EAEC134D988E6BB46D28",
+    "Bytes": 2578
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.enhanced_blood_pressure_measurement.yaml",
+    "Sha256": "5F8CDF0C62A1FDCD434A458D365DCE57A6BEED1BB684190FBBE607280A40199B",
+    "Bytes": 8309
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.enhanced_intermediate_cuff_pressure.yaml",
+    "Sha256": "416D31183270D17207ABABAB27F9B7DA95E05BB1099EEB05F550C528FDDA16F0",
+    "Bytes": 5684
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.estimated_service_date.yaml",
+    "Sha256": "02C0AAA54EC809BA64FD517631695C16E440CFCAD290F5922DF730D16FC51496",
+    "Bytes": 2704
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.event_statistics.yaml",
+    "Sha256": "825D89F26FD01513EFC209FC1838D8DE7EA27898B175E633E5538342A63E8874",
+    "Bytes": 3058
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.exact_time_256.yaml",
+    "Sha256": "A9461943E654DD09F91D37202DF379323229048EAC03A2000EF44C9D0AAA6210",
+    "Bytes": 2624
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fat_burn_heart_rate_lower_limit.yaml",
+    "Sha256": "8DA54656165CDADC816FBCE8B7C57757970217E9AB1F2D543408E8BEB3F1C442",
+    "Bytes": 2533
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fat_burn_heart_rate_upper_limit.yaml",
+    "Sha256": "29F07DC96E88695C4E2AD52755E1F4FA9BAE93EBCA5403968B9B1E9F4B509745",
+    "Bytes": 2533
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.firmware_revision_string.yaml",
+    "Sha256": "F906D999F9031852DDD7C0C5586A71A4701428935F45CEDF284F9F58E568D11E",
+    "Bytes": 2416
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.first_name.yaml",
+    "Sha256": "F2DEB5B6F6E12C219299271B4E9C6115C92C20D870ADB61FC233A16181490868",
+    "Bytes": 2345
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.five_zone_heart_rate_limits.yaml",
+    "Sha256": "6A1266BF9830BF7972D4AA873EAE604C8FBC0F5A4FCDFD838F28D506D9AE00BF",
+    "Bytes": 3106
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fixed_string_16.yaml",
+    "Sha256": "6071B8519500183F083918190C0263923261C16F53943B1315E2A9375574AC58",
+    "Bytes": 2449
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fixed_string_24.yaml",
+    "Sha256": "A1E7BF63662163C1684EF13956E88F816E0D6FB307B61DFB342C6B0A137851FA",
+    "Bytes": 2449
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fixed_string_36.yaml",
+    "Sha256": "1DDE49B18074B08FF2E96ECD266937DA7E3032FFA973C044D56999BDC7776EF4",
+    "Bytes": 2449
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fixed_string_64.yaml",
+    "Sha256": "C0E644F95F518BC3FF93838524D183CC26DAE658F9B17B7C8C641CA0D7987D1F",
+    "Bytes": 2452
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.fixed_string_8.yaml",
+    "Sha256": "5DBE3010F9CE744E6D34E1D71C6CDFD4781B0AADBDCFF09F9F28E51A82D74B3A",
+    "Bytes": 2443
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.force.yaml",
+    "Sha256": "F9838CD9E5EEEE2BD97C5D73DB9D9656823CFA355FB3B81E8941F00B1D1A7F9C",
+    "Bytes": 2568
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.four_zone_heart_rate_limits.yaml",
+    "Sha256": "D827FA6C6F0CB480A1B598AF1747B3144A6178BE4D791E153117CFEB684FBC2C",
+    "Bytes": 2918
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.gender.yaml",
+    "Sha256": "54E7C01826EB6B24118B623033291749318B3EFC949E8FB22F12575043DB55B8",
+    "Bytes": 2412
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.generic_level.yaml",
+    "Sha256": "595A1761F7BAB756F4EAB0AE268628C794652954A8475F832CD23E6615F8D271",
+    "Bytes": 2508
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.global_trade_item_number.yaml",
+    "Sha256": "C1FF9E9169498C11C854773FAFDEB174D73CA0E51E73AF79F18C25C0824F8948",
+    "Bytes": 2486
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.glucose_feature.yaml",
+    "Sha256": "11B9DE888FAC91E032CCAB06140440EF0CE07551B8DD10F02586DB4EA81A4307",
+    "Bytes": 5086
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.glucose_measurement_context.yaml",
+    "Sha256": "6809439E55609384291F9B0512ED212F549074CE9E2E688E86EA32C67F58040F",
+    "Bytes": 10941
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.glucose_measurement.yaml",
+    "Sha256": "E2017B4421705D34D6B220B58F2D4F06F15EF588570FFAC821BCDD55556C62F5",
+    "Bytes": 11062
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.gust_factor.yaml",
+    "Sha256": "EB7C09B8A86361A12E9C92F45A360EDEAD6503839FCC79E8071041CFB939F01C",
+    "Bytes": 2530
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.handedness.yaml",
+    "Sha256": "B8D2D392DF8C35554CFB6ED97BE95C9955F97B766413A39E1468C1A35F7B380A",
+    "Bytes": 2841
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.hardware_revision_string.yaml",
+    "Sha256": "59AD12B5F9355D13B6D156816C1C5F0C0B3CB2DFF0C3D520E6D4C63C884A1B21",
+    "Bytes": 2426
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.heart_rate_control_point.yaml",
+    "Sha256": "4D0B733EE6BAD33583CD046344120257E7C8A0C272460DBCD930F2CC434B41BC",
+    "Bytes": 2991
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.heart_rate_max.yaml",
+    "Sha256": "1BA4C6E811E02E472BF28C73393973A0B2A08FB31F8FBB9177F1DCF58EF2C866",
+    "Bytes": 2439
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.heart_rate_measurement.yaml",
+    "Sha256": "3C162CBC631F007E476DAB2367205C51B46E1D5E3E005D5C4E9F71FDDCEC9D00",
+    "Bytes": 5227
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.heat_index.yaml",
+    "Sha256": "C601AFCCBB08518D667E085A500507CCD42368A337387E1D0F7EF9DCEC5A256D",
+    "Bytes": 2385
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.height.yaml",
+    "Sha256": "D7BC6E959943ED9EB6C8D5CC82676CAD786F3A44AAB301DB7D527196E368A053",
+    "Bytes": 2442
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.high_intensity_exercise_threshold.yaml",
+    "Sha256": "583A5E0AC9FFE289BE204399CC571738D4CDD164FA288AB6E224F3A164230C69",
+    "Bytes": 4611
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.high_resolution_height.yaml",
+    "Sha256": "CE868C50E7C99F7D1A813B35BFBEE0552491BAD61B5B0168E6B080A944274446",
+    "Bytes": 2565
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.high_temperature.yaml",
+    "Sha256": "B133D61FA1FF8DF827239AAE216DB8E4E2616E072E50EE1A982CA264F6E4855E",
+    "Bytes": 2795
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.high_voltage.yaml",
+    "Sha256": "2F94ACB871BF87C55BC3DD95D0F2AA7794EA96BACDEA7EB0729A3ED065CD1309",
+    "Bytes": 2646
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.hip_circumference.yaml",
+    "Sha256": "93CAB32F33364A542AF2743058468780D18FD6B7CA745A0A569C592ACE9294E4",
+    "Bytes": 2509
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.humidity.yaml",
+    "Sha256": "DAD76AC89BD698C442D51BAD5DC2CA49AD80CE899D8FB938503FDEFEC0E8552D",
+    "Bytes": 2618
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ieee_11073-20601_regulatory_certification_data_list.yaml",
+    "Sha256": "9C47A383EDAF7F382C011349C90B040DAEC86AC25640313985AB87BD8B97C24E",
+    "Bytes": 2868
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.illuminance.yaml",
+    "Sha256": "85298DD73F5CCA682489937C9F5D8898A267A7C81BF79C24C21B1C939FF8C115",
+    "Bytes": 2635
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.indoor_bike_data.yaml",
+    "Sha256": "3383DAF9433AB251DA5994C4BA371EB063E13DCD9E955DED06A330FBE6BA1E84",
+    "Bytes": 8796
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.intermediate_cuff_pressure.yaml",
+    "Sha256": "F2EFCE3650A369B3701043E947481CE3437656E7A42CF196A297C605C6F06FED",
+    "Bytes": 7547
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.intermediate_temperature.yaml",
+    "Sha256": "11EECE29E4BEBBAF4D5DABF82E9A77E9E9B2420EB01ACC6A8F00BD29BE4720A8",
+    "Bytes": 4706
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.irradiance.yaml",
+    "Sha256": "B9CB8CD569C5DB6C68F3B1856A277A47DF408314AE3AE26E6900BC26E0A86BFF",
+    "Bytes": 2588
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.language.yaml",
+    "Sha256": "74B6A936EFA343883B5ECB273917A132E57ADCD7FA7BE7BC7EBB5A863FAA8907",
+    "Bytes": 2416
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.last_name.yaml",
+    "Sha256": "5BF2F182B63E33A690E7979047473850D54D54A88161C28C5A375EC29063BF95",
+    "Bytes": 2340
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.length.yaml",
+    "Sha256": "F76863302D51A83C6D7AEB60E5CD5F3B3D7622247EBB1C1D291887FC95F6200B",
+    "Bytes": 2578
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.light_distribution.yaml",
+    "Sha256": "A4A7B1EF5C2B0B43DF354103589EFEA1A93731A92CAD1BCF6F4C5A6803252DF3",
+    "Bytes": 3917
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.light_output.yaml",
+    "Sha256": "F34AED81498EC0863E2B7029E19B7F695E0245F74DD9121FD514A1A373309264",
+    "Bytes": 2718
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.light_source_type.yaml",
+    "Sha256": "51D8AEE982183B0BB7DB2FD2F4144E8A0C26C79551DC1BCB37145864221FD0B8",
+    "Bytes": 3400
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.linear_position.yaml",
+    "Sha256": "78E78BA5EEDEAF8280CB67EAB9B5237E1183698D9B1AD5AD1848212543A4E5CF",
+    "Bytes": 2660
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ln_control_point.yaml",
+    "Sha256": "5404815A4FDF6D786AC6AE7E4BE20E560B7A07C985FB65368518B78325D713A3",
+    "Bytes": 8277
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ln_feature.yaml",
+    "Sha256": "0C25C9279DA5D65035A63CA7C9F3894BE467CDB8FBED1803FEEBE0656E72FC10",
+    "Bytes": 4242
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.local_time_information.yaml",
+    "Sha256": "726BB1D0B806B1E1C16DE0DF2796D565304073BCA8CC92C806B2623B951E23BB",
+    "Bytes": 2725
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.location_and_speed.yaml",
+    "Sha256": "DDED3EA70EE23D3AF8650661A6AE76D0DCA2204F15234E5107F66A0AE8C343A3",
+    "Bytes": 6100
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_efficacy.yaml",
+    "Sha256": "B470043ECF3137D756F2BC9630A959B89974F0C70F9DC0B606D21EA017AA002D",
+    "Bytes": 2685
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_energy.yaml",
+    "Sha256": "E1EAE453F1F36A7051763BAFF6BC4FF01BAE3ABF9B66D95213F2015F9DB24652",
+    "Bytes": 2678
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_exposure.yaml",
+    "Sha256": "47C5E9BD8D5DA9B49FF6A1D2EB0FB84B1D03B0E560EF24E23A7F19E96F0DC3C4",
+    "Bytes": 2682
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_flux_range.yaml",
+    "Sha256": "AF9DBFF85F37B9B2598D062F9B15FC0D8622CB2F2BE38A67593A0971AA374F9F",
+    "Bytes": 2652
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_flux.yaml",
+    "Sha256": "861C98FF35E5B47E60A50F87371F214EE2BF1AEA035FD6CCFCE857B7DA9BE54C",
+    "Bytes": 2640
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.luminous_intensity.yaml",
+    "Sha256": "907AF5682D5A2F2321A6181B1401BD0966B7A5BB1DC0DFB3BB50DA978CF7211B",
+    "Bytes": 2685
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.magnetic_declination.yaml",
+    "Sha256": "99BFA9B2B155ECA5BF76F6E1C51254E0DF16DAA9452C12FFC9B0C099BE973EB7",
+    "Bytes": 2781
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.magnetic_flux_density_-_2d.yaml",
+    "Sha256": "77817C6D86544E6A91FD07392A2CFCBF8C7A4299A30206DDB1289BC8F07AF939",
+    "Bytes": 2893
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.magnetic_flux_density_-_3d.yaml",
+    "Sha256": "5B68C1FB60217D08512179810F8E7E472C73A852F8B0B97622D7DAAE3AF695E6",
+    "Bytes": 3144
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.manufacturer_name_string.yaml",
+    "Sha256": "86D395846B9E790D3DE81A2471EA4542C317420AE8D6DC2F54A300C26F029B15",
+    "Bytes": 2412
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.mass_flow.yaml",
+    "Sha256": "FC6813F51E4B8973F72FD8434E2D4206510554E4CFDA346B78A26BBA30CEA448",
+    "Bytes": 2625
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.maximum_recommended_heart_rate.yaml",
+    "Sha256": "FDF60836E6C2BC1D9D0DC0E5CF5C0F13549F68F3AAB8E49146367CA54C5E4171",
+    "Bytes": 2677
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.measurement_interval.yaml",
+    "Sha256": "7F482CA169FD0E3CA888C25C1C7B5BC044001A0ED33F73D8B76B73C05495B73A",
+    "Bytes": 2879
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.methane_concentration.yaml",
+    "Sha256": "6193A4E26214608A7671121B2F16CA6C988688F3D261372757AFD183793954CB",
+    "Bytes": 2858
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.middle_name.yaml",
+    "Sha256": "9EAF614AE3136AD1CC7050F641D9254C68784E46BF59AD9F8A2C086C416BB738",
+    "Bytes": 2350
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.model_number_string.yaml",
+    "Sha256": "6CCF1997DB03DDABFB32ABAA06A3B8EF8E15E3DDA73DB14C33BEAE6D5B727C1E",
+    "Bytes": 2396
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.navigation.yaml",
+    "Sha256": "1802909E77AC51079DB6270BCB9FD67048A649A88D0627E7AF2B1273C699B0AF",
+    "Bytes": 4897
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.new_alert.yaml",
+    "Sha256": "D552AAB601745241CC9D6A5BD0233B5897EB2E9E1C50BB7F5E0000168E504674",
+    "Bytes": 3960
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.nitrogen_dioxide_concentration.yaml",
+    "Sha256": "C9CB257E9380835EF2F74DB419C5DB6FC05FCF85ED3261A1643C778A2A77C237",
+    "Bytes": 2904
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.noise.yaml",
+    "Sha256": "E1C30403138AF24A9C9A30DBBC06CA8F3985E650D1186BCFB770C38E926F7DD3",
+    "Bytes": 2591
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.non-methane_volatile_organic_compounds_concentration.yaml",
+    "Sha256": "24D8B93CF47FF103CEAFAC6A2846376ACC4B7C23F73163B228F5AD8A77663572",
+    "Bytes": 3006
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.object_first-created.yaml",
+    "Sha256": "2422CFD8DFC98A960DF6B16A6A52998BA17887AA68B918F1130BAA3473BC445B",
+    "Bytes": 2511
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.object_id.yaml",
+    "Sha256": "F73B9A03F2F0DF7DB3E53A3860D3C8AB01C89320C8DC65CBC9F297FF66EBCC8C",
+    "Bytes": 2404
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.object_last-modified.yaml",
+    "Sha256": "3F27160AE595F1D66E915196B124A14E7601867E2CC791336D471271A4939E08",
+    "Bytes": 2511
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.object_name.yaml",
+    "Sha256": "2E1F9E932106F2BF6A2005AE14BD46154B4A0ABD39C2F80B890778CEB910D3BA",
+    "Bytes": 2357
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.object_type.yaml",
+    "Sha256": "D66B5ADA124BDADBE89605A72D4AC80784B090F5593C64F6A29D1AA36FFAA483",
+    "Bytes": 2869
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ozone_concentration.yaml",
+    "Sha256": "D2A4D469237329F1359778DC742B9F40765B2E6A2CA6928EED4A3DB1BBAFE6FB",
+    "Bytes": 2853
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.particulate_matter_-_pm1_concentration.yaml",
+    "Sha256": "7207EDE30CF09E47F5A6834549793AC6539E912C63920DF9C412B7D03A089601",
+    "Bytes": 2959
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.particulate_matter_-_pm10_concentration.yaml",
+    "Sha256": "F76A976C2349AF97834A553B0C688A73EA2605C30FA11E5E62595C616B690358",
+    "Bytes": 2960
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.particulate_matter_-_pm2.5_concentration.yaml",
+    "Sha256": "6FA895640F04CA7D561955AACE558450B9FC771BD07D2BDECCEC452E10CA1ADF",
+    "Bytes": 2965
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.perceived_lightness.yaml",
+    "Sha256": "CF3000F9E19D138CEB59AC96F6368F1AE9483788A2C14BD0A3AA7DAB7965A896",
+    "Bytes": 2520
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.percentage_8_steps.yaml",
+    "Sha256": "CA430B662B11B19C30EAAE84100A91297F6E3324111D3CA05BF1C983C3BAF84A",
+    "Bytes": 3025
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.percentage_8.yaml",
+    "Sha256": "4853D9AF63C9B03F88F70F885C909ABA4120FD2089E8E20AFB168696168260B5",
+    "Bytes": 2619
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.pnp_id.yaml",
+    "Sha256": "9F1365DADDAEAC5DEC4CC021DA2A6C9FC0F9AA0394424EA472D488CE7986430B",
+    "Bytes": 3478
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.pollen_concentration.yaml",
+    "Sha256": "CB13433F22ED5305979445CE0BA2C73E7EBEEC7A06F2A795C9CB230484632864",
+    "Bytes": 2423
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.position_quality.yaml",
+    "Sha256": "72E36C004E7A77768541C60CE458936BD2BAA62296DC84393036133A145B5AF9",
+    "Bytes": 4976
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.power_specification.yaml",
+    "Sha256": "CE84D25EDDEE29BFAA3C167AEEA6FFFC5DC6BEB01BEBCD29F378D67EF8876FBF",
+    "Bytes": 2799
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.power.yaml",
+    "Sha256": "795B84305C7EC26426305B3A0059D474019E629C8C8248C563B18F818FA32EC0",
+    "Bytes": 2620
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.preferred_units.yaml",
+    "Sha256": "9A146F816F62D20AC015CF059A100EE6079CC283639EC5713D45898467984A40",
+    "Bytes": 2825
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.pressure.yaml",
+    "Sha256": "69DECA83B7C329F4E22EE616E1830EEFFADFBAC9745B900A89D763392FD39DF3",
+    "Bytes": 2465
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.rainfall.yaml",
+    "Sha256": "F9C61AC1B23BCE03493FD6172572E2FEA781772FBC083593C6BDF8781FC03490",
+    "Bytes": 2484
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.record_access_control_point.yaml",
+    "Sha256": "DD6B549B78C510118588D2B190A0D6923894FA79FE10CC541841F5DB07084804",
+    "Bytes": 9864
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.reference_time_information.yaml",
+    "Sha256": "080603200F5E62AD87A9A8E9551A726763626F07FCF5EA21904FE5DD735B0DF7",
+    "Bytes": 3291
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_runtime_in_a_correlated_color_temperature_range.yaml",
+    "Sha256": "A3E0F97B1F823F0B3065FAC99E5C434003894695E0E0D0AAF7648E2C9702808C",
+    "Bytes": 3074
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_runtime_in_a_current_range.yaml",
+    "Sha256": "77871553C967EEF86648F9A5E9ECD7F5BDF105B797A5B042E98FF120928118DF",
+    "Bytes": 2914
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_runtime_in_a_generic_level_range.yaml",
+    "Sha256": "A7ED4FD6C030449CCBB6FAABF8C2D6DE3DE4746004C98C8EDA9D58D4EE1618E0",
+    "Bytes": 2913
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_value_in_a_period_of_day.yaml",
+    "Sha256": "330E058AB0D859F9014EB9934DA210406549B62F350E6D76F04DB38E1618F051",
+    "Bytes": 2945
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_value_in_a_temperature_range.yaml",
+    "Sha256": "77B9F3267660F3EA952E4F99F4B9B6AE6A50F14532112F18C567893A816AD6AE",
+    "Bytes": 2969
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_value_in_a_voltage_range.yaml",
+    "Sha256": "D26BCF42A33ECE6742A6CDA4D0FFA39F175405EB8398773A9B326DFA66923EA0",
+    "Bytes": 2854
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.relative_value_in_an_illuminance_range.yaml",
+    "Sha256": "D595485FB1A5EE4E2CA7E841F1CF21558BA42127C90F79B9D1E830F94E51AD03",
+    "Bytes": 2898
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.resting_heart_rate.yaml",
+    "Sha256": "EF4BEFC609B322131B440FBE5E339CA42CA41F02571FD05A028100AA1772F9B8",
+    "Bytes": 2418
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ringer_control_point.yaml",
+    "Sha256": "674FF2E9D909D261203B9E1FEE3187244139927D1D2F61586424CBAD6D8F153D",
+    "Bytes": 2521
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.ringer_setting.yaml",
+    "Sha256": "3FC14770EC7323EC9EE1612977C325EDB46BB20AE0141274B172E386F57A3470",
+    "Bytes": 2441
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.rotational_speed.yaml",
+    "Sha256": "2C203B3C3745008E3645AC033FCBCEDEED1E6424FD4A26DAD8323623CF9217D8",
+    "Bytes": 2792
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.rower_data.yaml",
+    "Sha256": "B1D51C2051C1C651CD090FCB46B8BE30A10AD3E3618859DA6D3EDC66470F1744",
+    "Bytes": 8889
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.rsc_feature.yaml",
+    "Sha256": "F9C8BE82DE25DAFBC367C4C98321839BF6800F7C9B1DAC746CE70934B93BFBD1",
+    "Bytes": 3051
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.rsc_measurement.yaml",
+    "Sha256": "C1F64D4599143DD7FA9993E31FF76EF5D5AF5F0F879A41682AB9F3395EF9E999",
+    "Bytes": 3824
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sc_control_point.yaml",
+    "Sha256": "1507FBCF8AE1B73A255FAC85B3E38248D0808694E4FD7AAC3894C35382CCD4FE",
+    "Bytes": 6739
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sedentary_interval_notification.yaml",
+    "Sha256": "3539A88FE88A81B03C916F74011BFE87C8E37CA5539562B895721374A2188F24",
+    "Bytes": 2936
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sensor_location.yaml",
+    "Sha256": "954CB309BFCADB4DCEB9F3DFEAFB920415963CF81601478E6BD71A9EC82140C2",
+    "Bytes": 3582
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.serial_number_string.yaml",
+    "Sha256": "C4E0224FABC6C3877D0306CE84417B2084BF6D5D991A2D10F9708CA395DBCCA5",
+    "Bytes": 2384
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.software_revision_string.yaml",
+    "Sha256": "391EAD391D79E8DEA7C61539C14C3155579B3C1431638C6AB72261CD5CB2297E",
+    "Bytes": 2416
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sport_type_for_aerobic_and_anaerobic_thresholds.yaml",
+    "Sha256": "CAA2BF91F3FE59755137ADCA239AB4448E0A933DCCAD5556369FB07976CD8191",
+    "Bytes": 3907
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.stair_climber_data.yaml",
+    "Sha256": "E34F9F879797F2C7E6E53D1F8E253E23F64EFB8CE4CF8156536E0E35B79BE6F0",
+    "Bytes": 7203
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.step_climber_data.yaml",
+    "Sha256": "39E9EF5DBBF03E2C81C4E2F83470D232ACFA8D1DCAD272A40A62D15D710C3559",
+    "Bytes": 7098
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.stride_length.yaml",
+    "Sha256": "ADAD4B0619B00EB66FB428FA43F3C9702BB292C387F5C1574BE8C5E4E2403585",
+    "Bytes": 2513
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sulfur_dioxide_concentration.yaml",
+    "Sha256": "C90BDE2B99701BE1A85F4CC95D82739FF3B75A41816ADEB0100042604F76E001",
+    "Bytes": 2899
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.sulfur_hexafluoride_concentration.yaml",
+    "Sha256": "5776CFC657095BA79F5E55E5F1EA22D66539DB63129C5518AC5CF9800210F3BD",
+    "Bytes": 2924
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_heart_rate_range.yaml",
+    "Sha256": "8AF24D3EF8B5CA9A9654A4FCA6DF17C9FABF00F58BB36C4612D73356CD85F88E",
+    "Bytes": 2740
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_inclination_range.yaml",
+    "Sha256": "695685981F1B3EDE75092A7E87E6623DE4237D52F99B8C3841DC07B56BD17BE5",
+    "Bytes": 3010
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_new_alert_category.yaml",
+    "Sha256": "6DBA490C7FF3E189EE24E34ED7E90CFEB58F126B07090B426539BAFC2C947881",
+    "Bytes": 2548
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_power_range.yaml",
+    "Sha256": "0332526E503A18A80CC13F895742845E5863B4875D9FA836B1CD7AA863FDFD94",
+    "Bytes": 2674
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_resistance_level_range.yaml",
+    "Sha256": "3D4BFE2BE02E0AF6244C40FBA3891E4C1339DCDE4761E26451957A4FE858A1E2",
+    "Bytes": 2980
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_speed_range.yaml",
+    "Sha256": "B9546B2D2BE7D4E84933295A4D5C9ECE170BDEB43956EBFA5DC3456FB0FDFF5D",
+    "Bytes": 3061
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.supported_unread_alert_category.yaml",
+    "Sha256": "C49C735785435AAA0D51D453FA6A7184AE4BE22BC1072870C04680300AC72E18",
+    "Bytes": 2561
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.system_id.yaml",
+    "Sha256": "D539D33C76B8DAC3C9089A3F5F232142779BB58149355F9E50B1A4EDC0D3FD61",
+    "Bytes": 3664
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_8_in_a_period_of_day.yaml",
+    "Sha256": "CF49622CBEBC4FA213FBBDD68A6E3B84A3F357E850530ADB271D88BDE24B81FF",
+    "Bytes": 2878
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_8_statistics.yaml",
+    "Sha256": "83E03C75AE65DE6B6B686F30F802EBF0C5A1E25B5C5331A250D0364CF0812FCE",
+    "Bytes": 3241
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_8.yaml",
+    "Sha256": "7A56F5DD36F80245BBC9B08CC756C45677EE599D3A3EE97418DA421981C8F630",
+    "Bytes": 2651
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_measurement.yaml",
+    "Sha256": "C9D85EFF0667FC353E8A93E8A4132C810EE971009E8358D415B5DD49AEF5E3C8",
+    "Bytes": 4366
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_range.yaml",
+    "Sha256": "E1BB650CF58E1AC339BB6346C200D29AC83E09571BCF651589CC0FBB7A00B593",
+    "Bytes": 2632
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_statistics.yaml",
+    "Sha256": "03C232E1BF01D6DB832225A7AB4187E2A15E694EE3E77293AEB21A61C4744D89",
+    "Bytes": 3249
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature_type.yaml",
+    "Sha256": "996659004C16E818A9E5E4EDF7BCFB22685B646CA824417FB30F1FD5F9DF689F",
+    "Bytes": 3400
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.temperature.yaml",
+    "Sha256": "1B025F5703B46144953A9C1626FB936524FA966D7E3CEE1614D0FC988F9DE748",
+    "Bytes": 2678
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.three_zone_heart_rate_limits.yaml",
+    "Sha256": "C7A7327B2FF05485110CA621E2D6D62E49C3FC9F7774E552F4E98C63A2F793A7",
+    "Bytes": 2786
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_accuracy.yaml",
+    "Sha256": "6BD29AB711253819E763634F6E0280FF211C6B0D9A7B9741F3E579BFBB01F76A",
+    "Bytes": 2791
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_decihour_8.yaml",
+    "Sha256": "92412F502DF2AFD361AFD40EFDE49F9C05492B409415C9D8F885A310570DB697",
+    "Bytes": 2650
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_exponential_8.yaml",
+    "Sha256": "8AC5D4CB9721768AF13AB5B688CB46DF3530F64F13B98D11731100FFAA1F1ACF",
+    "Bytes": 2779
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_hour_24.yaml",
+    "Sha256": "9603B23FADDEB135D592D482DED079BC6EE9E831754B7A4EFFFA194A5141C4FF",
+    "Bytes": 2539
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_millisecond_24.yaml",
+    "Sha256": "008327A60947DD08A38BCB7BD1BCD7360F70D6775A926ABAFE6E3CE267922067",
+    "Bytes": 2652
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_second_16.yaml",
+    "Sha256": "A8FDF63BD783D4856A6BD9F78B69AD4F9028F0EEED3E00B6FFCD6D11DC17EA78",
+    "Bytes": 2561
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_second_32.yaml",
+    "Sha256": "470B56A140C3B6A5B2C3E134E0EBB39BC5DF67B8FDAC3AD476F5058EADFCB39C",
+    "Bytes": 2619
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_second_8.yaml",
+    "Sha256": "F181753123836E757336A4F7CC173CC8FED39457DCB2A52738335AE4D4F30AC0",
+    "Bytes": 2552
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_source.yaml",
+    "Sha256": "369EE98F8DD0F11B6A21210D6812AFD544EC617689ABF0EBED895084AD067DE4",
+    "Bytes": 4143
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_update_control_point.yaml",
+    "Sha256": "011C4870F9BC1B4B149B40B5DD9831355217793D56266EEED29C9D3E33B5B4BB",
+    "Bytes": 2534
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_update_state.yaml",
+    "Sha256": "F80F3B6CEC61B7BA0964AA4E7A133C71B792D5274895967B4EFB454684ABEE8A",
+    "Bytes": 2821
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_with_dst.yaml",
+    "Sha256": "A5182907701350193F143BE4CCF102D6B5B671D8C285A2F8B0434D84C01A66ED",
+    "Bytes": 2612
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.time_zone.yaml",
+    "Sha256": "4095EDE97877D076CAA18B30DDA68729380BCD862B163386B7701078152FC690",
+    "Bytes": 2747
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.torque.yaml",
+    "Sha256": "701995AF0BE8FEED64E770417FD1F0C41FCE7E14A2231DA441DC797C7D96835B",
+    "Bytes": 2720
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.treadmill_data.yaml",
+    "Sha256": "7C9BCDB3C537E0B12ADC1E7E8A9315C611434E6D8D0295330F04F2B4B666EE66",
+    "Bytes": 10308
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.true_wind_direction.yaml",
+    "Sha256": "17D36AC7928BE4438DD650291E0EDEC3EACB7AF85679339B50114F9000C6CC4A",
+    "Bytes": 2955
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.true_wind_speed.yaml",
+    "Sha256": "10AFA15C89A5A8094AF53EBACDBB5184B58C8EED2B8D1E86D986416087F38371",
+    "Bytes": 2531
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.two_zone_heart_rate_limits.yaml",
+    "Sha256": "667F7618C75A0FCC7C8DB6F137857ED1F2F6DAB1C760BDDD332E619FED7224EB",
+    "Bytes": 2566
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.tx_power_level.yaml",
+    "Sha256": "431323375322E003D02CE7D508CB5EF6A6B8AD33CA2F9551ABC5279A18410274",
+    "Bytes": 2524
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.udi_for_medical_devices.yaml",
+    "Sha256": "FDF1DA1923F32DD5F84B553AA85B4E0E9B3614A8B9C9DEC04D68D8C880CD50B3",
+    "Bytes": 5037
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.unread_alert_status.yaml",
+    "Sha256": "5DE26DC734E83EC506DB3E8E0513D5992B1E6D32C48F10871D193ADFB67B8B5E",
+    "Bytes": 2769
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.user_index.yaml",
+    "Sha256": "4573977248E2FEAFFFEE8E9838A50CAA0B0B9FB9B96EF85E16CC9952502E9FCB",
+    "Bytes": 2650
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.uv_index.yaml",
+    "Sha256": "0C33B6BB9144BCF03C927C37291698F763C51F8CE02CFE52CE9264ACDBC1281E",
+    "Bytes": 2343
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.vo2_max.yaml",
+    "Sha256": "D0804E7ED39E76B4ECA4E2101C4501B2D620902C7836579F40A8CC030C186457",
+    "Bytes": 2402
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.voc_concentration.yaml",
+    "Sha256": "3B5020040199E5C2BE26B84D62E5B576913D28BC3C3DE98E05A3276439CF313A",
+    "Bytes": 2705
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.voltage_frequency.yaml",
+    "Sha256": "5D4ABDF94AE53AFF850E63B741C2D993E296BFDBD32A69DC908EC90E26A198CD",
+    "Bytes": 2713
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.voltage_specification.yaml",
+    "Sha256": "BD8D28F56A421593D3F4F8037CA82168405B2498783D34F1E7EDCCD46AE1066E",
+    "Bytes": 2825
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.voltage_statistics.yaml",
+    "Sha256": "045478B77496BE7A4E96340CE980446197D00905E9E4F7FC580D7AB96AD2032E",
+    "Bytes": 3226
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.voltage.yaml",
+    "Sha256": "2B98388AAD9B231936E55ABBC00E490125665038400BBC95274FE92F6B1C8031",
+    "Bytes": 2780
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.volume_flow.yaml",
+    "Sha256": "7B4503AC7DDF690255604DC9ED057CDDDC7179732B880032898232DBDC6887BA",
+    "Bytes": 2705
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.waist_circumference.yaml",
+    "Sha256": "68376BF45D38C7A3F8D111C94CD8FEC4FF8C2135070A6B81943FC9F307BB5C5A",
+    "Bytes": 2505
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.weight_measurement.yaml",
+    "Sha256": "29CC19EFC88394C73FAC26423804B74C4F9EB789C4E1F291E53BE07D8AD388A2",
+    "Bytes": 4338
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.weight_scale_feature.yaml",
+    "Sha256": "E077B1F99AB91569062587620CFAD5ACE0A3207ABF622F2C0AF03D9F01F7C0CF",
+    "Bytes": 3784
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.weight.yaml",
+    "Sha256": "143A442EA934FAC198B034ACDFE8132FCD1A0B266CFE99BBD3CFC7680DE29016",
+    "Bytes": 2447
+  },
+  {
+    "Path": "bluetooth-SIG/gss/org.bluetooth.characteristic.wind_chill.yaml",
+    "Sha256": "0F7E596B0D1CC405571B515B6F8867D8856CE263DF14B0A186EC2D7D147A2BE3",
+    "Bytes": 2392
+  },
+  {
+    "Path": "Doc/Doc.md",
+    "Sha256": "66866359D8C4EC0E2E812F2AB42774E6B97B9AA2E1A1011BC59E67845930E031",
+    "Bytes": 2466
+  },
+  {
+    "Path": "Doc/ReadMe.md",
+    "Sha256": "1A33E621E58CDB52E91348D5950CB084DB09C72A43505CF91A2C4B3B0945FE7D",
+    "Bytes": 559
+  },
+  {
+    "Path": "Python/ad_types.py",
+    "Sha256": "D932C7B16E1C33E4EB07E3CBA1A69714843657D5BF574BD3D4703D805A5969F2",
+    "Bytes": 2337
+  },
+  {
+    "Path": "Python/company_identifiers.py",
+    "Sha256": "B7B02FF183D0DD5C7FB8BC02E7822BBE946049101EFB24902337EA733CF258FF",
+    "Bytes": 2446
+  },
+  {
+    "Path": "Python/GenAll.py",
+    "Sha256": "4D091F20B43666551500A64BA3CF426689E9C5B64CC573D90CC728A9529A184D",
+    "Bytes": 6921
+  },
+  {
+    "Path": "Python/templates/template.cpp.tpl",
+    "Sha256": "65F6B9D64E2B760C59586C4BBB0A3FC23A964801B0CFE5E4A247A5167607B61F",
+    "Bytes": 537
+  },
+  {
+    "Path": "Python/templates/template.hpp.tpl",
+    "Sha256": "84393F6F78DC2ECD7B0B71068D89F8FB98522F6C0383A7F2DEA72DA690C85B4F",
+    "Bytes": 183
+  },
+  {
+    "Path": "src/njsonex.hpp",
+    "Sha256": "1BF7F94A8C455E71543A62D707B5EDBFFF466F4A362B6E25DC51DB74AFA7400F",
+    "Bytes": 3666
+  },
+  {
+    "Path": "src/NaBTools_samsung_EIT5300_data.hpp",
+    "Sha256": "BCEB2AE89A95E7A547080C66AADFEE278ADDAA7E53CE4472C2D885178CB077C3",
+    "Bytes": 4763
+  },
+  {
+    "Path": "src/NaBTools_samsung_EIT5300.cpp",
+    "Sha256": "7E4064E5A5821199D8EDDD16F711494A402EFB81F857BA406C877A4DF95C0AC8",
+    "Bytes": 7991
+  },
+  {
+    "Path": "src/NaBTools_samsung_EIT5300.hpp",
+    "Sha256": "E24C111FE4552396FBA0CAF176FDFE09C9E75D3131577C443B0BC6ADFB0A7285",
+    "Bytes": 1912
+  },
+  {
+    "Path": "src/NaBTools_Test.cpp",
+    "Sha256": "AEF3292ADB6C16CC3E34F207C0C29101816307579CEA40BCD4C6ECED6F4C3713",
+    "Bytes": 1922
+  },
+  {
+    "Path": "src/NaBTools_Test.hpp",
+    "Sha256": "58BE84FCE5B46E874DF4F740A1ACABE018796730F0774BADF7829FF1780C050C",
+    "Bytes": 1236
+  },
+  {
+    "Path": "src/NaBTools_TomTom_TPMS.cpp",
+    "Sha256": "B1B8B4954E59FEB65010BADF2636210B1CB4B0A11722E259E11B91B9EA8BC153",
+    "Bytes": 9305
+  },
+  {
+    "Path": "src/NaBTools_TomTom_TPMS.hpp",
+    "Sha256": "1BF8AA739D50D9292C0F7AD179C735F70F0ED1330F18AD9F7F3181B3E6EA3926",
+    "Bytes": 1713
+  },
+  {
+    "Path": "src/NaBTools_tpms.hpp",
+    "Sha256": "C714403B10B8BB3D4EFEC0597CDDA10A134E386DD4DF1021263530DEB92E3146",
+    "Bytes": 1576
+  },
+  {
+    "Path": "src/NaBTools_utils.cpp",
+    "Sha256": "D2E22CF55C350BDF0C485A003403D1829A252372680659476EC83F7E0BE9A6AA",
+    "Bytes": 13563
+  },
+  {
+    "Path": "src/NaBTools_utils.hpp",
+    "Sha256": "50394B29F321E6324B01C8815C066F5CEAE342B2539ACDE583EC7A0A27389F79",
+    "Bytes": 32998
+  },
+  {
+    "Path": "src/NaBTools.cpp",
+    "Sha256": "1B1300DDCF1B8E6F59FB99421B189F13E6E9FBB6E9F544FDA7BA7FE2A747679B",
+    "Bytes": 2946
+  },
+  {
+    "Path": "src/NaBTools.hpp",
+    "Sha256": "00C5068F43CF6D7A050A236E28B71BCF2966A1DFA6627402DD319817659333F4",
+    "Bytes": 8435
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/company_identifiers/company_identifiers.cpp",
+    "Sha256": "7D965C469839DACE858E9B6A43462D8189EBAC1B9804A962E52CE2EAF5321C6E",
+    "Bytes": 153202
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/company_identifiers/company_identifiers.hpp",
+    "Sha256": "3213AB65F97E0967E8CC11C8EC3924621F17571585E8C4D735354B5F64C33268",
+    "Bytes": 205
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/core/ad_types.cpp",
+    "Sha256": "301BE657B31E74F46782703DB84A8EFB8D923B870132338F0E3BBCD02B388A1D",
+    "Bytes": 2932
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/core/ad_types.hpp",
+    "Sha256": "7688CCE230AD80F2B719F0407CACFB269D029A2EA1E60475F2403988DF119985",
+    "Bytes": 160
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/browse_group_identifiers.cpp",
+    "Sha256": "4399029C6821A6C167078C4C893CA5177218E23D4B8D7517E94790C6B169527B",
+    "Bytes": 653
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/browse_group_identifiers.hpp",
+    "Sha256": "E1540D3AFEAD7C0BD9632B9F234FA73FECEB6469EDC904184D2D6E9E5974C1A0",
+    "Bytes": 225
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/characteristic_uuids.cpp",
+    "Sha256": "81B9DBFEF411DF250A9F1696AA71972E8C6270DCA36C1522D7FB48E4119BE42A",
+    "Bytes": 56078
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/characteristic_uuids.hpp",
+    "Sha256": "F58718031E3398BC7709FB236D8366A3ACBE093C98F44EBFE0BB371AF7253AD1",
+    "Bytes": 209
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/declarations.cpp",
+    "Sha256": "E54FF73484D7A18A9BBE4D6B569CF746C7DAA60B58C4C8A61DDEBEDA286B6289",
+    "Bytes": 1008
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/declarations.hpp",
+    "Sha256": "216BB41C70FF47A0799081F177D32881FA999EE38145AE150F39EA88E3674C02",
+    "Bytes": 177
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/descriptors.cpp",
+    "Sha256": "72824F2592871FF6D01E58F9AEE562703ED381DF24E0EC95570C7901EDF7366E",
+    "Bytes": 3125
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/descriptors.hpp",
+    "Sha256": "D7F1217E11FF6EC0194EB5F847991A5C577FA864C9E6CF91CF8E20FEF23607DD",
+    "Bytes": 173
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/member_uuids.cpp",
+    "Sha256": "82014E337D39564C95209A542E91FC3B900DB43B6331F3B710E397F055FA6BC6",
+    "Bytes": 27015
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/member_uuids.hpp",
+    "Sha256": "2E2EC34A54A6E7E9A2E27D1FAC00C259CC9285497B06DF7042E03044B6C5FEF7",
+    "Bytes": 177
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/mesh_profile_uuids.cpp",
+    "Sha256": "225868046A5233F58D12E1AA49960564F04269D139D5168F8DF196CE91B8F716",
+    "Bytes": 860
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/mesh_profile_uuids.hpp",
+    "Sha256": "3A4BA5A49A22C641CE091DCE69554D2C5FC1F0C3F6B684B2AA65CE6D977B59D2",
+    "Bytes": 201
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/object_types.cpp",
+    "Sha256": "0348D15429830D954AEECF5CABC6C3FE1BE3F16C30B9BF7E577DDE1331BA4DC6",
+    "Bytes": 1124
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/object_types.hpp",
+    "Sha256": "D0470B12EBA94EB6D2277737A743CCBF987B15A5082CD57A440706E34947DFBF",
+    "Bytes": 177
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/protocol_identifiers.cpp",
+    "Sha256": "D01A9D717EF15E72D44C8356786A26E687EBBD8805CD145A66A78DA6FEB489B2",
+    "Bytes": 1226
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/protocol_identifiers.hpp",
+    "Sha256": "9B21A913CF40CCAA94603E9D71147DB2977933EA2DCD5E791C7388E87D48BC3E",
+    "Bytes": 209
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/sdo_uuids.cpp",
+    "Sha256": "A69754B97287ACDD0C41DD559563FA67F78E76D1BFBA3E20B0880818FFF11B46",
+    "Bytes": 1265
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/sdo_uuids.hpp",
+    "Sha256": "B920AE51876C7AC00984EEADCDCFEA2223F5279C31C919E63C1084796798F8D2",
+    "Bytes": 165
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/service_class.cpp",
+    "Sha256": "606A7F8D1129DB78735CC934EDBE73588A6D4B4FFEA4ECF1D250B4A8F4E27718",
+    "Bytes": 9097
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/service_class.hpp",
+    "Sha256": "77A88D462B0D11E0EE10CA1DF3F74CBF6750F0444900730015870694F8523E4D",
+    "Bytes": 181
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/service_uuids.cpp",
+    "Sha256": "82F19727C9237F6D4E8382FFB1288168C2AD4634B85B664A0B95A7B9779E04CC",
+    "Bytes": 8216
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/service_uuids.hpp",
+    "Sha256": "3274CF71EAE5D66141E0DC2AEC97072F7143FE63FCA974EF3770663BF89E91EC",
+    "Bytes": 181
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/units.cpp",
+    "Sha256": "94088EC47BFDBE3CBA0627F218901105A0A6CEAA51B734EB7E274B4FF0DAA45F",
+    "Bytes": 14871
+  },
+  {
+    "Path": "src/bluetooth-SIG/assigned_numbers/uuids/units.hpp",
+    "Sha256": "8C40A8DD801E8AEB19EC1EF7389CDAE492263C6901B5EAA7BA3C2EED9D99F9CE",
+    "Bytes": 149
+  }
+]

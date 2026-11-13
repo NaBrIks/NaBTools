@@ -1,0 +1,79 @@
+{
+  "id": "v_architecture",
+  "project": "nabtools",
+  "axis": "axis_layer",
+  "placements": [
+    {
+      "entity": "e_app",
+      "parent": null,
+      "x": 460,
+      "y": 40,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_engine",
+      "parent": null,
+      "x": 460,
+      "y": 200,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_backend",
+      "parent": null,
+      "x": 40,
+      "y": 200,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_gatt",
+      "parent": null,
+      "x": 40,
+      "y": 360,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_modules",
+      "parent": null,
+      "x": 880,
+      "y": 200,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_device",
+      "parent": null,
+      "x": 880,
+      "y": 360,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_actions",
+      "parent": null,
+      "x": 880,
+      "y": 520,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_research",
+      "parent": null,
+      "x": 460,
+      "y": 360,
+      "width": 360,
+      "height": 70
+    },
+    {
+      "entity": "e_sig",
+      "parent": null,
+      "x": 460,
+      "y": 520,
+      "width": 360,
+      "height": 70
+    }
+  ]
+}
